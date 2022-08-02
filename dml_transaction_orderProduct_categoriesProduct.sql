@@ -82,13 +82,21 @@ values
 ('adi','adi','adi','0822344544','Jl Singa baru 2','adi@gmal.com','fottto1',NOW(),NOW()),
 ('fikri','fikri','fikri','0822555555','Jl Singa baru 1','fikri@gmal.com','foto1',NOW(),NOW()),
 ('simon','simon','simon','0822666666','Jl Singa baru  3','simon@gmal.com','fotto11',NOW(),NOW());
-
 ('beto','beto','beto','082234890122','Jl Nusa Indah XX1','beto1@gmal.com','fotto13',NOW(),NOW()),
 ('turi','turi','turi','082245678910','Jl Damar 2','turi1@gmal.com','fotto13',NOW(),NOW()),
 ('deny','deny','deny','082210291034','Jl Koto XXI','deny1@gmal.com','fotto13',NOW(),NOW()),
 ('hasan','hasan','hasan','082288003345','Jl Ipinus 3','hasan1@gmal.com','fotto13',NOW(),NOW()),
 ('irvan','irvan','irvan','082277665544','Jl Merpati darat 3','irvan12@gmal.com','fotto113',NOW(),NOW()),
 ('gagas','gagas','gagas','082230302910','Jl Jalak ketupat','gagas@gmal.com','fotto13',NOW(),NOW());
+
+
+INSERT INTO public.buyers  ("user_id" , created_at,modified_at)
+values
+('1',NOW(),NOW()),('2',NOW(),NOW()),('2',NOW(),NOW()),
+('4',NOW(),NOW()),('5',NOW(),NOW()),('6',NOW(),NOW()),
+('7',NOW(),NOW()),('8',NOW(),NOW()),('11',NOW(),NOW()),
+('12',NOW(),NOW()),('13',NOW(),NOW()),('14',NOW(),NOW())
+('15',NOW(),NOW()),('16',NOW(),NOW()),('17',NOW(),NOW());
 
 INSERT INTO public.orders (quatity,buyer_id,payment_id ,shipping_id , created_at,modified_at)
 VALUES
