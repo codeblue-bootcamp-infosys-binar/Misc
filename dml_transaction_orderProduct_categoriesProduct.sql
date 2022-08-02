@@ -116,17 +116,17 @@ VALUES
 	  	 (NOW(),NOW(),2,2),
 	  	 (NOW(),NOW(),3,3),
 	  	 (NOW(),NOW(),1,2),
-	  	 (NOW(),NOW(),7,3),
-	  	 (NOW(),NOW(),10,1),
+	  	 (NOW(),NOW(),2,3),
+	  	 (NOW(),NOW(),1,1),
 	  	 (NOW(),NOW(),3,1),
 	  	 (NOW(),NOW(),5,5),
 	  	 (NOW(),NOW(),4,4),
 	  	 (NOW(),NOW(),3,5),
 	  	 (NOW(),NOW(),5,3),
 	  	 (NOW(),NOW(),4,4),
-	  	 (NOW(),NOW(),9,5),
-	  	 (NOW(),NOW(),8,6),
-	  	 (NOW(),NOW(),7,4),
+	  	 (NOW(),NOW(),3,5),
+	  	 (NOW(),NOW(),2,6),
+	  	 (NOW(),NOW(),3,4),
 	  	 (NOW(),NOW(),4,7);
 	  	
 
