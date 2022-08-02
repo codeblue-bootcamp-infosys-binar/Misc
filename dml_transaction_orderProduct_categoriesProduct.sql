@@ -71,6 +71,25 @@ INSERT INTO public.sellers (store_address,store_name,store_photo,user_id,created
 	('Jl. Letnan Arsyad Raya No.5','Sunaku Watch','https://rimage.gnst.jp/livejapan.com/public/img/spot/lj/00/06/lj0006967/lj0006967_5eaa9c9ad823d_main.jpg?20210621040011&q=80',14,NOW(),NOW());
 	('Mall Metropolitan Lt.1 106, JL. KH. Noerali','Citra Arloji','https://static.gltjp.com/glt/prd/data/article/12000/11917/20180920_234806_f6dc5b9d_w1920.jpg',15,NOW(),NOW());   
 
+INSERT INTO public.users ("name",username  ,"password" ,phone, address ,email ,photo, created_at,modified_at)
+values
+('junaidi','junaidi','junaidi','0813131313','jalanjalan','jalan@gmal.com','fotto',NOW(),NOW()),
+('budi','budi','budi','082190908080','Jl sisimangarajaa','budin@gmal.com','fotto1',NOW(),NOW()),
+('rudi','rudi','rudi','0822324243','Jl Singa baru','rudi@gmal.com','fottto',NOW(),NOW()),
+('tisa','tisa','tisa','0823333333','Jl Singa baru 2','tisa@gmal.com','fotto2',NOW(),NOW()),
+('reva','reva','reva','082277777','Jl Singa baru 2','reva@gmal.com','fotto1',NOW(),NOW()),
+('rini','rini','rini','0822444444','Jl Singa baru 1','rini@gmal.com','foto1',NOW(),NOW()),
+('adi','adi','adi','0822344544','Jl Singa baru 2','adi@gmal.com','fottto1',NOW(),NOW()),
+('fikri','fikri','fikri','0822555555','Jl Singa baru 1','fikri@gmal.com','foto1',NOW(),NOW()),
+('simon','simon','simon','0822666666','Jl Singa baru  3','simon@gmal.com','fotto11',NOW(),NOW());
+
+('beto','beto','beto','082234890122','Jl Nusa Indah XX1','beto1@gmal.com','fotto13',NOW(),NOW()),
+('turi','turi','turi','082245678910','Jl Damar 2','turi1@gmal.com','fotto13',NOW(),NOW()),
+('deny','deny','deny','082210291034','Jl Koto XXI','deny1@gmal.com','fotto13',NOW(),NOW()),
+('hasan','hasan','hasan','082288003345','Jl Ipinus 3','hasan1@gmal.com','fotto13',NOW(),NOW()),
+('irvan','irvan','irvan','082277665544','Jl Merpati darat 3','irvan12@gmal.com','fotto113',NOW(),NOW()),
+('gagas','gagas','gagas','082230302910','Jl Jalak ketupat','gagas@gmal.com','fotto13',NOW(),NOW());
+
 INSERT INTO public.orders (quatity,buyer_id,payment_id ,shipping_id , created_at,modified_at)
 VALUES
 	 	('12','2','1','2',NOW(),NOW()),
