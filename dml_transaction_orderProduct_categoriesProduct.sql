@@ -1,79 +1,6 @@
-INSERT INTO public.transactions (date_transaction,total_price,order_product_id,created_at,modified_at)
-VALUES
-	  	  ('2022-02-22',35000,1,NOW(),NOW()),
-	  	  ('2022-02-22',40000,3,NOW(),NOW()),
-	  	  ('2022-02-22',40000,3,NOW(),NOW()),
-	  	  ('2022-02-22',40000,3,NOW(),NOW()),
-	  	  ('2022-10-22',40000,3,NOW(),NOW()),
-	  	  ('2022-10-22',40000,3,NOW(),NOW()),
-	  	  ('2022-10-22',40000,3,NOW(),NOW()),
-	  	  ('2022-07-04',40000,3,NOW(),NOW()),
-	  	  ('2022-07-04',40000,3,NOW(),NOW()),
-	  	  ('2022-07-04',40000,3,NOW(),NOW()),
-	  	  ('2022-10-22',40000,3,NOW(),NOW()),
-	  	  ('2022-10-22',40000,3,NOW(),NOW()),
-	  	  ('2022-10-22',40000,3,NOW(),NOW()),
-	  	  ('2022-10-22',40000,3,NOW(),NOW()),
-	  	  ('2022-10-22',40000,3,NOW(),NOW());
-	  	 
-INSERT INTO public.orders_products (created_at ,modified_at ,order_order_id,product_product_id)
-VALUES
-	  	 (NOW(),NOW(),2,2),
-	  	 (NOW(),NOW(),3,3),
-	  	 (NOW(),NOW(),1,2),
-	  	 (NOW(),NOW(),11,3),
-	  	 (NOW(),NOW(),10,1),
-	  	 (NOW(),NOW(),3,1),
-	  	 (NOW(),NOW(),5,5),
-	  	 (NOW(),NOW(),4,4),
-	  	 (NOW(),NOW(),3,5),
-	  	 (NOW(),NOW(),5,3),
-	  	 (NOW(),NOW(),14,4),
-	  	 (NOW(),NOW(),9,5),
-	  	 (NOW(),NOW(),8,6),
-	  	 (NOW(),NOW(),7,4),
-	  	 (NOW(),NOW(),4,7);
-	  	
-INSERT INTO public.product_category (created_at ,modified_at ,category_id ,product_id)
-VALUES
-	  	 (NOW(),NOW(),2,2),
-	  	 (NOW(),NOW(),3,3),
-	  	 (NOW(),NOW(),1,2),
-	  	 (NOW(),NOW(),11,3),
-	  	 (NOW(),NOW(),10,1),
-	  	 (NOW(),NOW(),3,1),
-	  	 (NOW(),NOW(),5,5),
-	  	 (NOW(),NOW(),4,4),
-	  	 (NOW(),NOW(),3,5),
-	  	 (NOW(),NOW(),5,3),
-	  	 (NOW(),NOW(),14,4),
-	  	 (NOW(),NOW(),9,5),
-	  	 (NOW(),NOW(),8,6),
-	  	 (NOW(),NOW(),7,4),
-	  	 (NOW(),NOW(),4,7);
-		 
-
-INSERT INTO public.sellers (store_address,store_name,store_photo,user_id,created_at,modified_at)
-	VALUES 
-	('Jl. Raya Pekayon No.66B','-Toko Jam Master Star','-https://tangselmedia.com/6-daftar-toko-jam-terbaik-di-tangerang-selatan.html',1,NOW(),NOW());
-	('Komplek PU Sapta Taruna 3','Toko Jam Ahdmad Naufal','https://tangselmedia.com/wp-content/uploads/2020/01/6-Daftar-Toko-Jam-Terbaik-di-Tangerang-Selatan-aslie.png',2,NOW(),NOW());
-	('Jl. Dasa Darma Blok II ','Ratih Arloji','https://cdn-image.hipwee.com/wp-content/uploads/2018/11/hipwee-wa2-750x500.jpg',3,NOW(),NOW());
-	('Pasar Baru Jati Asih Blok A1','Toko Arloji Asia Permai','https://www.intime.co.id/wp-content/uploads/toko-jam-tangan-mewah.jpg',4,NOW(),NOW());
-	('Mega Bekasi Hypermall UG','Matchwatch Mega Bekasi Hypermall','https://blog.jamtangan.com/wp-content/uploads/2018/12/A7S0008.jpg',5,NOW(),NOW());
-	('Jl. Raya Dukuh Zamrud Selatan 3','Toko Gaya Trendy','https://www.solomediabisnis.com/wp-content/uploads/2021/01/3-2.jpeg',6,NOW(),NOW());
-	('Mal Metropolitan, lantai dasar','Berlian Arloji','https://hinyong.com/wp-content/uploads/2019/05/siapkan-perlengkapan-dan-barang-dagangan-usaha-toko-jam.jpg',7,NOW(),NOW());
-	('Jl. Ir. Hj Juanda. Ps. Baru Bekasi','Terus Jaya','https://alamatbagus.com/wp-content/uploads/2022/03/toko-jam-tangan-surabaya-cahaya-arloji.jpg',8,NOW(),NOW());
-	('Jl. Ir. H. Juanda No.51','Toko Jam Rizky Jaya','https://images.homify.com/c_fill,f_auto,q_0,w_740/v1516689893/p/photo/image/2402137/IMG_20171126_083613_858.jpg',9,NOW(),NOW());
-	('Jl. Raya Jati Makmur No.11','Prima Arloji','https://westime.com/wp-content/uploads/2020/08/Westime-Miami-Watch-Store-Interior-view.jpg',10,NOW(),NOW());
-	('Jl. Ir. H. Juanda','Toko Arloji Mitra Jaya','https://feldmarwatch.com/wp-content/themes/NewFeldmarWatch/images/watch-store-2x.jpg',11,NOW(),NOW());
-	('Bekasi Junction, Jl. Ir. H. Juanda','Intan Jaya','https://www.seikowatches.com/id-id/-/media/Images/GlobalEn/Seiko/Home/stores/store_image.jpg?mh=1125&mw=2000&hash=A7633EB5B0D8E9A913765A1F1ED7566C',12,NOW(),NOW());
-	('Mega Bekasi Hypermall, Jl. A.Yani','Citra Arloji','https://zworks.net/files/2021/08/Watch-Store-Interior-Design-3d-model-1.jpg',13,NOW(),NOW());
-	('Jl. Letnan Arsyad Raya No.5','Sunaku Watch','https://rimage.gnst.jp/livejapan.com/public/img/spot/lj/00/06/lj0006967/lj0006967_5eaa9c9ad823d_main.jpg?20210621040011&q=80',14,NOW(),NOW());
-	('Mall Metropolitan Lt.1 106, JL. KH. Noerali','Citra Arloji','https://static.gltjp.com/glt/prd/data/article/12000/11917/20180920_234806_f6dc5b9d_w1920.jpg',15,NOW(),NOW());   
-
 INSERT INTO public.users ("name",username  ,"password" ,phone, address ,email ,photo, created_at,modified_at)
 values
-('junaidi','junaidi','junaidi','0813131313','jalanjalan','jalan@gmal.com','fotto',NOW(),NOW()),
+('junaidi','junaidii','junaidiiii','0813131313','jalanjalan','jalan@gmail.com','fotto',NOW(),NOW()),
 ('budi','budi','budi','082190908080','Jl sisimangarajaa','budin@gmal.com','fotto1',NOW(),NOW()),
 ('rudi','rudi','rudi','0822324243','Jl Singa baru','rudi@gmal.com','fottto',NOW(),NOW()),
 ('tisa','tisa','tisa','0823333333','Jl Singa baru 2','tisa@gmal.com','fotto2',NOW(),NOW()),
@@ -81,7 +8,7 @@ values
 ('rini','rini','rini','0822444444','Jl Singa baru 1','rini@gmal.com','foto1',NOW(),NOW()),
 ('adi','adi','adi','0822344544','Jl Singa baru 2','adi@gmal.com','fottto1',NOW(),NOW()),
 ('fikri','fikri','fikri','0822555555','Jl Singa baru 1','fikri@gmal.com','foto1',NOW(),NOW()),
-('simon','simon','simon','0822666666','Jl Singa baru  3','simon@gmal.com','fotto11',NOW(),NOW());
+('simon','simon','simon','0822666666','Jl Singa baru  3','simon@gmal.com','fotto11',NOW(),NOW()),
 ('beto','beto','beto','082234890122','Jl Nusa Indah XX1','beto1@gmal.com','fotto13',NOW(),NOW()),
 ('turi','turi','turi','082245678910','Jl Damar 2','turi1@gmal.com','fotto13',NOW(),NOW()),
 ('deny','deny','deny','082210291034','Jl Koto XXI','deny1@gmal.com','fotto13',NOW(),NOW()),
@@ -89,53 +16,33 @@ values
 ('irvan','irvan','irvan','082277665544','Jl Merpati darat 3','irvan12@gmal.com','fotto113',NOW(),NOW()),
 ('gagas','gagas','gagas','082230302910','Jl Jalak ketupat','gagas@gmal.com','fotto13',NOW(),NOW());
 
+INSERT INTO public.sellers (store_address,store_name,store_photo,user_id,created_at,modified_at)
+	VALUES 
+	('Jl. Raya Pekayon No.66B','-Toko Jam Master Star','-https://tangselmedia.com/6-daftar-toko-jam-terbaik-di-tangerang-selatan.html',1,NOW(),NOW()),
+	('Komplek PU Sapta Taruna 3','Toko Jam Ahdmad Naufal','https://tangselmedia.com/wp-content/uploads/2020/01/6-Daftar-Toko-Jam-Terbaik-di-Tangerang-Selatan-aslie.png',2,NOW(),NOW()),
+	('Jl. Dasa Darma Blok II ','Ratih Arloji','https://cdn-image.hipwee.com/wp-content/uploads/2018/11/hipwee-wa2-750x500.jpg',3,NOW(),NOW()),
+	('Pasar Baru Jati Asih Blok A1','Toko Arloji Asia Permai','https://www.intime.co.id/wp-content/uploads/toko-jam-tangan-mewah.jpg',4,NOW(),NOW()),
+	('Mega Bekasi Hypermall UG','Matchwatch Mega Bekasi Hypermall','https://blog.jamtangan.com/wp-content/uploads/2018/12/A7S0008.jpg',5,NOW(),NOW()),
+	('Jl. Raya Dukuh Zamrud Selatan 3','Toko Gaya Trendy','https://www.solomediabisnis.com/wp-content/uploads/2021/01/3-2.jpeg',6,NOW(),NOW()),
+	('Mal Metropolitan, lantai dasar','Berlian Arloji','https://hinyong.com/wp-content/uploads/2019/05/siapkan-perlengkapan-dan-barang-dagangan-usaha-toko-jam.jpg',7,NOW(),NOW()),
+	('Jl. Ir. Hj Juanda. Ps. Baru Bekasi','Terus Jaya','https://alamatbagus.com/wp-content/uploads/2022/03/toko-jam-tangan-surabaya-cahaya-arloji.jpg',8,NOW(),NOW()),
+	('Jl. Ir. H. Juanda No.51','Toko Jam Rizky Jaya','https://images.homify.com/c_fill,f_auto,q_0,w_740/v1516689893/p/photo/image/2402137/IMG_20171126_083613_858.jpg',9,NOW(),NOW()),
+	('Jl. Raya Jati Makmur No.11','Prima Arloji','https://westime.com/wp-content/uploads/2020/08/Westime-Miami-Watch-Store-Interior-view.jpg',10,NOW(),NOW()),
+	('Jl. Ir. H. Juanda','Toko Arloji Mitra Jaya','https://feldmarwatch.com/wp-content/themes/NewFeldmarWatch/images/watch-store-2x.jpg',11,NOW(),NOW()),
+	('Bekasi Junction, Jl. Ir. H. Juanda','Intan Jaya','https://www.seikowatches.com/id-id/-/media/Images/GlobalEn/Seiko/Home/stores/store_image.jpg?mh=1125&mw=2000&hash=A7633EB5B0D8E9A913765A1F1ED7566C',12,NOW(),NOW()),
+	('Mega Bekasi Hypermall, Jl. A.Yani','Citra Arloji','https://zworks.net/files/2021/08/Watch-Store-Interior-Design-3d-model-1.jpg',13,NOW(),NOW()),
+	('Jl. Letnan Arsyad Raya No.5','Sunaku Watch','https://rimage.gnst.jp/livejapan.com/public/img/spot/lj/00/06/lj0006967/lj0006967_5eaa9c9ad823d_main.jpg?20210621040011&q=80',14,NOW(),NOW()),
+	('Mall Metropolitan Lt.1 106, JL. KH. Noerali','Citra Arloji','https://static.gltjp.com/glt/prd/data/article/12000/11917/20180920_234806_f6dc5b9d_w1920.jpg',15,NOW(),NOW());   
+
 
 INSERT INTO public.buyers  ("user_id" , created_at,modified_at)
 values
 ('1',NOW(),NOW()),('2',NOW(),NOW()),('2',NOW(),NOW()),
 ('4',NOW(),NOW()),('5',NOW(),NOW()),('6',NOW(),NOW()),
 ('7',NOW(),NOW()),('8',NOW(),NOW()),('11',NOW(),NOW()),
-('12',NOW(),NOW()),('13',NOW(),NOW()),('14',NOW(),NOW())
-('15',NOW(),NOW()),('16',NOW(),NOW()),('17',NOW(),NOW());
+('12',NOW(),NOW()),('13',NOW(),NOW()),('14',NOW(),NOW()),
+('15',NOW(),NOW()),('11',NOW(),NOW()),('12',NOW(),NOW());
 
-INSERT INTO public.orders (quatity,buyer_id,payment_id ,shipping_id , created_at,modified_at)
-VALUES
-	 	('12','2','1','2',NOW(),NOW()),
-		('15','5','3','2',NOW(),NOW()),
-		('10','3','13','11',NOW(),NOW()),
-		('10','2','12','10',NOW(),NOW()),
-		('20','2','3','4',NOW(),NOW()),
-		('15','8','14','6',NOW(),NOW()),
-		('10','4','10','3',NOW(),NOW()),
-		('13','1','11','8',NOW(),NOW()),
-		('16','9','7','14',NOW(),NOW()),
-		('15','11','8','15',NOW(),NOW()),
-		('12','6','4','3',NOW(),NOW()),
-		('10','3','15','8',NOW(),NOW()),
-		('10','14','2','9',NOW(),NOW()),
-		('10','15','9','2',NOW(),NOW()),
-		('10','12','6','7',NOW(),NOW());
-	
-INSERT INTO public.payments (name, payment_code, created_at, modified_at)
-VALUES
-	 	('yueh','2abc567h',NOW(),NOW()),
-	 	('iyuh','2ab51001',NOW(),NOW()),
-	 	('wewo','2abh5h70',NOW(),NOW()),
-	 	('siwi','2aps55yy',NOW(),NOW()),
-	 	('cardi','2gg5657',NOW(),NOW()),
-	 	('xavier','67ii567',NOW(),NOW()),
-	 	('luci','2abu6900',NOW(),NOW()),
-	 	('dedi','9ugh909',NOW(),NOW()),
-	 	('kaly','42aopo008',NOW(),NOW()),
-	 	('gigi','3yu7708',NOW(),NOW()),
-	 	('ijay','2ogr882',NOW(),NOW()),
-	 	('jijay','67y7uh56',NOW(),NOW()),
-	 	('ruti','5fh2abc8',NOW(),NOW()),
-	 	('boyi','7vuu99g',NOW(),NOW()),
-	 	('yiqih','27axgyg',NOW(),NOW());
-	 
-	 
-	 
 INSERT INTO public.products (description , product_name ,price ,  seller_id , created_at,modified_at)
 VALUES
 	  	  ('A modern take on a classic design, the Iconic Link is the revelation behind years of meticulous craftsmanship. The Iconic Link features a luxurious metal bracelet with three-piece links; each segment is comprised of solid steel, individually crafted pieces in an elegantly tapered form, ensuring a seamless transition from case to clasp.
@@ -159,7 +66,42 @@ Petite Cornwall menangkap esensi kesederhanaan dan gaya sejati. Mengunggulkan st
 ('DESAIN KLASIK BERPADU DENGAN MINIMALISME MODERN
 Petite Bondi, dengan strap kulit warna putih dan arloji putih telur, menampilkan kesederhanaan dan keanggunan. Jam ultra-tipis ini duduk dengan manis di tangan Anda dan menyoroti semangat Anda yang membara dalam gaya. Tersedia dengan warna rose gold atau silver.', 'PETITE BONDI',2817000, 1, NOW(),NOW());
 
-
+INSERT INTO public.photos  (created_at ,modified_at ,photo_name,photourl,product_id)
+values
+(NOW(),NOW(),'java','https://introcs.cs.princeton.edu/java/11cheatsheet/images/hello.png',2),
+(NOW(),NOW(),'java','https://www3.ntu.edu.sg/home/ehchua/programming/java/images/programming_steps.gif',3),
+(NOW(),NOW(),'java','https://i.pinimg.com/originals/6e/03/21/6e0321597039afa3bc11d02d52fdfa6e.jpg',1),
+(NOW(),NOW(),'java','https://i.pinimg.com/originals/c2/e2/67/c2e26700b40bf55efa8d0ac05977e5c0.jpg',6),
+(NOW(),NOW(),'code','https://www.quotemaster.org/images/fa/faafd5631151dcdec1d045b2659a5369.png',6),
+(NOW(),NOW(),'code','https://introcs.cs.princeton.edu/java/11cheatsheet/images/hello.png',1),
+(NOW(),NOW(),'code','https://www3.ntu.edu.sg/home/ehchua/programming/java/images/programming_steps.gif',4),
+(NOW(),NOW(),'java','https://i.pinimg.com/originals/6e/03/21/6e0321597039afa3bc11d02d52fdfa6e.jpg',5),
+(NOW(),NOW(),'backend','https://i.pinimg.com/originals/c2/e2/67/c2e26700b40bf55efa8d0ac05977e5c0.jpg',7),
+(NOW(),NOW(),'backend','https://www.quotemaster.org/images/fa/faafd5631151dcdec1d045b2659a5369.png',2),
+(NOW(),NOW(),'backend','https://introcs.cs.princeton.edu/java/11cheatsheet/images/hello.png',4),
+(NOW(),NOW(),'backend','https://www3.ntu.edu.sg/home/ehchua/programming/java/images/programming_steps.gif',9),
+(NOW(),NOW(),'programmer','https://i.pinimg.com/originals/6e/03/21/6e0321597039afa3bc11d02d52fdfa6e.jpg',6),
+(NOW(),NOW(),'programmer','https://i.pinimg.com/originals/c2/e2/67/c2e26700b40bf55efa8d0ac05977e5c0.jpg',8),
+(NOW(),NOW(),'programmer','https://www.quotemaster.org/images/fa/faafd5631151dcdec1d045b2659a5369.png',7);
+		 
+INSERT INTO public.payments (name, payment_code, created_at, modified_at)
+VALUES
+	 	('yueh','2abc567h',NOW(),NOW()),
+	 	('iyuh','2ab51001',NOW(),NOW()),
+	 	('wewo','2abh5h70',NOW(),NOW()),
+	 	('siwi','2aps55yy',NOW(),NOW()),
+	 	('cardi','2gg5657',NOW(),NOW()),
+	 	('xavier','67ii567',NOW(),NOW()),
+	 	('luci','2abu6900',NOW(),NOW()),
+	 	('dedi','9ugh909',NOW(),NOW()),
+	 	('kaly','42aopo008',NOW(),NOW()),
+	 	('gigi','3yu7708',NOW(),NOW()),
+	 	('ijay','2ogr882',NOW(),NOW()),
+	 	('jijay','67y7uh56',NOW(),NOW()),
+	 	('ruti','5fh2abc8',NOW(),NOW()),
+	 	('boyi','7vuu99g',NOW(),NOW()),
+	 	('yiqih','27axgyg',NOW(),NOW());
+	 
 
 insert into public.categories (name, created_at, modified_at)
 values 
@@ -168,5 +110,78 @@ values
 ('Men Watches', NOW(),NOW()),
 ('Straps', NOW(),NOW()),
 ('Jewelry', NOW(),NOW());
+	  	
+INSERT INTO public.product_category (created_at ,modified_at ,category_id ,product_id)
+VALUES
+	  	 (NOW(),NOW(),2,2),
+	  	 (NOW(),NOW(),3,3),
+	  	 (NOW(),NOW(),1,2),
+	  	 (NOW(),NOW(),7,3),
+	  	 (NOW(),NOW(),10,1),
+	  	 (NOW(),NOW(),3,1),
+	  	 (NOW(),NOW(),5,5),
+	  	 (NOW(),NOW(),4,4),
+	  	 (NOW(),NOW(),3,5),
+	  	 (NOW(),NOW(),5,3),
+	  	 (NOW(),NOW(),4,4),
+	  	 (NOW(),NOW(),9,5),
+	  	 (NOW(),NOW(),8,6),
+	  	 (NOW(),NOW(),7,4),
+	  	 (NOW(),NOW(),4,7);
+	  	
 
+
+INSERT INTO public.orders (quantity,buyer_id,payment_id ,shipping_id , created_at,modified_at)
+VALUES
+	 	('12','2','1','2',NOW(),NOW()),
+		('15','5','3','2',NOW(),NOW()),
+		('10','3','13','11',NOW(),NOW()),
+		('10','2','12','10',NOW(),NOW()),
+		('20','2','3','4',NOW(),NOW()),
+		('15','8','14','6',NOW(),NOW()),
+		('10','4','10','3',NOW(),NOW()),
+		('13','1','11','8',NOW(),NOW()),
+		('16','9','7','14',NOW(),NOW()),
+		('15','11','8','15',NOW(),NOW()),
+		('12','6','4','3',NOW(),NOW()),
+		('10','3','15','8',NOW(),NOW()),
+		('10','14','2','9',NOW(),NOW()),
+		('10','15','9','2',NOW(),NOW()),
+		('10','12','6','7',NOW(),NOW());
+	
+INSERT INTO public.orders_products (created_at ,modified_at ,order_order_id,product_product_id)
+VALUES
+	  	 (NOW(),NOW(),2,2),
+	  	 (NOW(),NOW(),3,3),
+	  	 (NOW(),NOW(),1,2),
+	  	 (NOW(),NOW(),11,3),
+	  	 (NOW(),NOW(),10,1),
+	  	 (NOW(),NOW(),3,1),
+	  	 (NOW(),NOW(),5,5),
+	  	 (NOW(),NOW(),4,4),
+	  	 (NOW(),NOW(),3,5),
+	  	 (NOW(),NOW(),5,3),
+	  	 (NOW(),NOW(),14,4),
+	  	 (NOW(),NOW(),9,5),
+	  	 (NOW(),NOW(),8,6),
+	  	 (NOW(),NOW(),7,4),
+	  	 (NOW(),NOW(),4,7);
+	
+INSERT INTO public.transactions (date_transaction,total_price,order_id ,created_at,modified_at)
+VALUES
+	  	  ('2022-02-22',35000,1,NOW(),NOW()),
+	  	  ('2022-02-22',40000,3,NOW(),NOW()),
+	  	  ('2022-02-22',40000,3,NOW(),NOW()),
+	  	  ('2022-02-22',40000,3,NOW(),NOW()),
+	  	  ('2022-10-22',40000,3,NOW(),NOW()),
+	  	  ('2022-10-22',40000,3,NOW(),NOW()),
+	  	  ('2022-10-22',40000,3,NOW(),NOW()),
+	  	  ('2022-07-04',40000,3,NOW(),NOW()),
+	  	  ('2022-07-04',40000,3,NOW(),NOW()),
+	  	  ('2022-07-04',40000,3,NOW(),NOW()),
+	  	  ('2022-10-22',40000,3,NOW(),NOW()),
+	  	  ('2022-10-22',40000,3,NOW(),NOW()),
+	  	  ('2022-10-22',40000,3,NOW(),NOW()),
+	  	  ('2022-10-22',40000,3,NOW(),NOW()),
+	  	  ('2022-10-22',40000,3,NOW(),NOW());
 
