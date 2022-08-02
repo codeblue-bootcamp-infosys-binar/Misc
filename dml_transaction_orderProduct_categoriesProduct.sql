@@ -102,6 +102,42 @@ VALUES
 	 	('boyi','7vuu99g',NOW(),NOW()),
 	 	('yiqih','27axgyg',NOW(),NOW());
 	 
+INSERT INTO public.wishlist (created_at, modified_at,buyer_id ,product_id)
+VALUES
+	  	 (NOW(),NOW(),2,2),
+	  	 (NOW(),NOW(),11,3),
+	  	 (NOW(),NOW(),1,2),
+	  	 (NOW(),NOW(),2,3),
+	  	 (NOW(),NOW(),1,1),
+	  	 (NOW(),NOW(),3,1),
+	  	 (NOW(),NOW(),5,5),
+	  	 (NOW(),NOW(),14,4),
+	  	 (NOW(),NOW(),3,5),
+	  	 (NOW(),NOW(),5,3),
+	  	 (NOW(),NOW(),4,14),
+	  	 (NOW(),NOW(),3,5),
+	  	 (NOW(),NOW(),12,6),
+	  	 (NOW(),NOW(),3,4),
+	  	 (NOW(),NOW(),4,7);
+	 
+INSERT INTO public.shipping ("name" , price, created_at, modified_at)
+VALUES
+	 	('JNE',25000,NOW(),NOW()),
+	 	('sicepat',40000,NOW(),NOW()),
+	 	('tiki',50000,NOW(),NOW()),
+	 	('posindonesia',20000,NOW(),NOW()),
+	 	('indahcargo',15000,NOW(),NOW()),
+	 	('dakota',25000,NOW(),NOW()),
+	 	('anteraja',40000,NOW(),NOW()),
+	 	('shopeeExpress',50000,NOW(),NOW()),
+	 	('lionparcel',20000,NOW(),NOW()),
+	 	('tokopediaexpress',25000,NOW(),NOW()),
+	 	('JNT',40000,NOW(),NOW()),
+	 	('Aliexpreess',50000,NOW(),NOW()),
+	 	('gosend',20000,NOW(),NOW()),
+	 	('alibaba',20000,NOW(),NOW()),
+	 	('ubersend',15000,NOW(),NOW());
+	 
 
 insert into public.categories (name, created_at, modified_at)
 values 
@@ -133,21 +169,21 @@ VALUES
 
 INSERT INTO public.orders (quantity,buyer_id,payment_id ,shipping_id , created_at,modified_at)
 VALUES
-	 	('12','2','1','2',NOW(),NOW()),
-		('15','5','3','2',NOW(),NOW()),
-		('10','3','13','11',NOW(),NOW()),
-		('10','2','12','10',NOW(),NOW()),
-		('20','2','3','4',NOW(),NOW()),
-		('15','8','14','6',NOW(),NOW()),
-		('10','4','10','3',NOW(),NOW()),
-		('13','1','11','8',NOW(),NOW()),
-		('16','9','7','14',NOW(),NOW()),
-		('15','11','8','15',NOW(),NOW()),
-		('12','6','4','3',NOW(),NOW()),
-		('10','3','15','8',NOW(),NOW()),
-		('10','14','2','9',NOW(),NOW()),
-		('10','15','9','2',NOW(),NOW()),
-		('10','12','6','7',NOW(),NOW());
+	 	(12,2,1,2,NOW(),NOW()),
+		(15,5,3,2,NOW(),NOW()),
+		(10,3,13,11,NOW(),NOW()),
+		(10,2,12,10,NOW(),NOW()),
+		(20,2,3,4,NOW(),NOW()),
+		(15,8,14,6,NOW(),NOW()),
+		(10,4,10,3,NOW(),NOW()),
+		(13,1,11,8,NOW(),NOW()),
+		(16,9,7,14,NOW(),NOW()),
+		(15,11,8,15,NOW(),NOW()),
+		(12,6,4,3,NOW(),NOW()),
+		(10,3,15,8,NOW(),NOW()),
+		(10,14,2,9,NOW(),NOW()),
+		(10,15,9,2,NOW(),NOW()),
+		(10,12,6,7,NOW(),NOW());
 	
 INSERT INTO public.orders_products (created_at ,modified_at ,order_order_id,product_product_id)
 VALUES
