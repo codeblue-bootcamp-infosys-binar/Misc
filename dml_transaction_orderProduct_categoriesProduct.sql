@@ -71,4 +71,39 @@ INSERT INTO public.sellers (store_address,store_name,store_photo,user_id,created
 	('Jl. Letnan Arsyad Raya No.5','Sunaku Watch','https://rimage.gnst.jp/livejapan.com/public/img/spot/lj/00/06/lj0006967/lj0006967_5eaa9c9ad823d_main.jpg?20210621040011&q=80',14,NOW(),NOW());
 	('Mall Metropolitan Lt.1 106, JL. KH. Noerali','Citra Arloji','https://static.gltjp.com/glt/prd/data/article/12000/11917/20180920_234806_f6dc5b9d_w1920.jpg',15,NOW(),NOW());   
 
+INSERT INTO public.orders (quatity,buyer_id,payment_id ,shipping_id , created_at,modified_at)
+VALUES
+	 	('12','2','1','2',NOW(),NOW()),
+		('15','5','3','2',NOW(),NOW()),
+		('10','3','13','11',NOW(),NOW()),
+		('10','2','12','10',NOW(),NOW()),
+		('20','2','3','4',NOW(),NOW()),
+		('15','8','14','6',NOW(),NOW()),
+		('10','4','10','3',NOW(),NOW()),
+		('13','1','11','8',NOW(),NOW()),
+		('16','9','7','14',NOW(),NOW()),
+		('15','11','8','15',NOW(),NOW()),
+		('12','6','4','3',NOW(),NOW()),
+		('10','3','15','8',NOW(),NOW()),
+		('10','14','2','9',NOW(),NOW()),
+		('10','15','9','2',NOW(),NOW()),
+		('10','12','6','7',NOW(),NOW());
+	
+INSERT INTO public.payments (name, payment_code, created_at, modified_at)
+VALUES
+	 	('yueh','2abc567h',NOW(),NOW()),
+	 	('iyuh','2ab51001',NOW(),NOW()),
+	 	('wewo','2abh5h70',NOW(),NOW()),
+	 	('siwi','2aps55yy',NOW(),NOW()),
+	 	('cardi','2gg5657',NOW(),NOW()),
+	 	('xavier','67ii567',NOW(),NOW()),
+	 	('luci','2abu6900',NOW(),NOW()),
+	 	('dedi','9ugh909',NOW(),NOW()),
+	 	('kaly','42aopo008',NOW(),NOW()),
+	 	('gigi','3yu7708',NOW(),NOW()),
+	 	('ijay','2ogr882',NOW(),NOW()),
+	 	('jijay','67y7uh56',NOW(),NOW()),
+	 	('ruti','5fh2abc8',NOW(),NOW()),
+	 	('boyi','7vuu99g',NOW(),NOW()),
+	 	('yiqih','27axgyg',NOW(),NOW());
 	  	  
