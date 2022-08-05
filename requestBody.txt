@@ -2,8 +2,8 @@
 Photos post/update
 
 {
-  "photo_name": "gaskeunn",
-  "photo_url": "https://1.bp.blogspot.com/-g37FOKQagj4/XmmsmEzzZcI/AAAAAAAAA_E/N6RN9_hyr9gmc9lnml3SaMIKpxg8KQo-QCLcBGAsYHQ/w1200-h630-p-k-no-nu/Gaskeun.png",
+  "photo_name": "Daniel Wellington Bistol Black",
+  "photo_url": "https://1.bp.blogspot.com/-g37FOKQagj4/XmmsmEzzZcI/AAAAAAAAA_E/N6RN9_hyr9gmc9lnml3SaMIKpxg8KQo-QCLcBGAsYHQ/w1200-h630-p-k-no-nu/dwbristol.png",
   "product": {
     "productId": 4  
 	}
@@ -64,4 +64,44 @@ payment post/update
 {
   "name": "MandiriKu",
   "paymentCode": "sdj889"
+}
+
+
+=======================================================
+product post
+
+{
+  "sellerId": 1,
+  "description": "The jury is still out on the Quadro Pressed Evergold White. Is it a gold watch or a classy piece of jewelry? This gold women’s watch perfectly balances functionality and esthetics. The delicate gold mesh watchband shimmers tastefully as it supports the square dial with sleek rounded edges. The simple white dial, featuring a sunray index, echoes the watch strap's glistening gold, while allowing the overall design to breathe and feel effortless. So what do you think, is this Quadro jewelry or one of our most beautiful square watches?",
+  "price": 2000000,
+  "productName": "Daniel Wellington Quadro Pressed Evergold"
+}
+
+=======================================================
+product update
+
+{
+  "productId": 20,
+  "sellerId": 1,
+  "description": "The jury is still out on the Quadro Pressed Evergold White. Is it a gold watch or a classy piece of jewelry? This gold women’s watch perfectly balances functionality and esthetics. The delicate gold mesh watchband shimmers tastefully as it supports the square dial with sleek rounded edges. The simple white dial, featuring a sunray index, echoes the watch strap's glistening gold, while allowing the overall design to breathe and feel effortless. So what do you think, is this Quadro jewelry or one of our most beautiful square watches?",
+  "price": 2000000,
+  "productName": "Daniel Wellington Quadro Pressed Sheffield"
+}
+
+
+=======================================================
+category post
+
+{
+  "name": "Smartwatch Case"
+}
+
+
+=======================================================
+category update
+
+
+{
+  "categoryId": 8,
+  "name": "Mother of Pearl Watches"
 }
