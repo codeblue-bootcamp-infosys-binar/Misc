@@ -60,3 +60,9 @@ order post
   },
   "totalprice": 13000
 }
+=======================================================
+payment post/put
+{
+  "name": "MandiriKu",
+  "paymentCode": "sdj889"
+}
