@@ -1,0 +1,51 @@
+=======================================================
+Photos post/update
+
+{
+  "photo_name": "gaskeunn",
+  "photo_url": "https://1.bp.blogspot.com/-g37FOKQagj4/XmmsmEzzZcI/AAAAAAAAA_E/N6RN9_hyr9gmc9lnml3SaMIKpxg8KQo-QCLcBGAsYHQ/w1200-h630-p-k-no-nu/Gaskeun.png",
+  "product": {
+    "productId": 4  
+	}
+}
+=======================================================
+Product Category post/update
+
+postProductCategory
+{
+  "product": {
+    "productId": 1
+  },
+  "category": {
+    "categoriesId": 1
+  }
+}
+=======================================================
+Cart post/update
+
+{
+  "buyer": {
+    "buyerId": 2
+  },
+  "product": {
+    "productId": 3
+  },
+  "quantity": 1,
+  "order": {
+    "orderId": 2
+
+  }
+}
+=======================================================
+transaction post/update
+
+{
+  "order": {
+    "orderId": 3
+},
+  "nameShipping": "AnterajaXSIcepat",
+  "addressShipping": "Jalan Jalan men",
+  "zipCode": "23456",
+  "phoneShipping": "080790111"
+}
+=======================================================
