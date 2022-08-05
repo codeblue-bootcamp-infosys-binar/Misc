@@ -17,7 +17,7 @@ values
 ('gagas','gagas','gagas','082230302910','Jl Jalak ketupat','gagas@gmal.com','fotto13',NOW(),NOW());
 
 INSERT INTO public.sellers (store_address,store_name,store_photo,user_id,created_at,modified_at)
-	VALUES 
+VALUES 
 	('Jl. Raya Pekayon No.66B','-Toko Jam Master Star','-https://tangselmedia.com/6-daftar-toko-jam-terbaik-di-tangerang-selatan.html',1,NOW(),NOW()),
 	('Komplek PU Sapta Taruna 3','Toko Jam Ahdmad Naufal','https://tangselmedia.com/wp-content/uploads/2020/01/6-Daftar-Toko-Jam-Terbaik-di-Tangerang-Selatan-aslie.png',2,NOW(),NOW()),
 	('Jl. Dasa Darma Blok II ','Ratih Arloji','https://cdn-image.hipwee.com/wp-content/uploads/2018/11/hipwee-wa2-750x500.jpg',3,NOW(),NOW()),
@@ -86,21 +86,21 @@ values
 		 
 INSERT INTO public.payments (name, payment_code, created_at, modified_at)
 VALUES
-	 	('yueh','2abc567h',NOW(),NOW()),
-	 	('iyuh','2ab51001',NOW(),NOW()),
-	 	('wewo','2abh5h70',NOW(),NOW()),
-	 	('siwi','2aps55yy',NOW(),NOW()),
-	 	('cardi','2gg5657',NOW(),NOW()),
-	 	('xavier','67ii567',NOW(),NOW()),
-	 	('luci','2abu6900',NOW(),NOW()),
-	 	('dedi','9ugh909',NOW(),NOW()),
-	 	('kaly','42aopo008',NOW(),NOW()),
-	 	('gigi','3yu7708',NOW(),NOW()),
-	 	('ijay','2ogr882',NOW(),NOW()),
-	 	('jijay','67y7uh56',NOW(),NOW()),
-	 	('ruti','5fh2abc8',NOW(),NOW()),
-	 	('boyi','7vuu99g',NOW(),NOW()),
-	 	('yiqih','27axgyg',NOW(),NOW());
+	 	('BNI','2abc567h',NOW(),NOW()),
+	 	('BCA','2ab51001',NOW(),NOW()),
+	 	('BRI','2abh5h70',NOW(),NOW()),
+	 	('GoPay','2aps55yy',NOW(),NOW()),
+	 	('OVO','2gg5657',NOW(),NOW()),
+	 	('GooglePay','67ii567',NOW(),NOW()),
+	 	('Mandi','2abu6900',NOW(),NOW()),
+	 	('ShopeePay','9ugh909',NOW(),NOW()),
+	 	('Permata','42aopo008',NOW(),NOW()),
+	 	('CIMB','3yu7708',NOW(),NOW()),
+	 	('BSI','2ogr882',NOW(),NOW()),
+	 	('BTN','67y7uh56',NOW(),NOW()),
+	 	('CITIBANK','5fh2abc8',NOW(),NOW()),
+	 	('BANK ANZ','7vuu99g',NOW(),NOW()),
+	 	('BANK YOGYA','27axgyg',NOW(),NOW());
 	 
 INSERT INTO public.wishlist (created_at, modified_at,buyer_id ,product_id)
 VALUES
@@ -185,38 +185,39 @@ VALUES
 		(10000,9,2,NOW(),NOW()),
 		(10000,6,7,NOW(),NOW());
 	
-INSERT INTO public.carts (created_at ,modified_at ,buyer_id , order_id, product_id)
+INSERT INTO public.carts (created_at ,modified_at ,buyer_id , order_id, product_id,quantity)
 VALUES
-	  	 (NOW(),NOW(),2,2,3),
-	  	 (NOW(),NOW(),3,3,3),
-	  	 (NOW(),NOW(),1,2,4),
-	  	 (NOW(),NOW(),11,3,7),
-	  	 (NOW(),NOW(),10,1,9),
-	  	 (NOW(),NOW(),3,1,2),
-	  	 (NOW(),NOW(),5,5,8),
-	  	 (NOW(),NOW(),4,4,10),
-	  	 (NOW(),NOW(),3,5,11),
-	  	 (NOW(),NOW(),5,3,13),
-	  	 (NOW(),NOW(),14,4,3),
-	  	 (NOW(),NOW(),9,5,8),
-	  	 (NOW(),NOW(),8,6,2),
-	  	 (NOW(),NOW(),7,4,12),
-	  	 (NOW(),NOW(),4,7,13);
+	  	 (NOW(),NOW(),2,2,3,3),
+	  	 (NOW(),NOW(),3,3,3,1),
+	  	 (NOW(),NOW(),1,2,4,2),
+	  	 (NOW(),NOW(),11,3,7,5),
+	  	 (NOW(),NOW(),10,1,9,1),
+	  	 (NOW(),NOW(),3,1,2,3),
+	  	 (NOW(),NOW(),5,5,8,2),
+	  	 (NOW(),NOW(),4,4,10,5),
+	  	 (NOW(),NOW(),3,5,11,1),
+	  	 (NOW(),NOW(),5,3,13,6),
+	  	 (NOW(),NOW(),14,4,3,1),
+	  	 (NOW(),NOW(),9,5,8,4),
+	  	 (NOW(),NOW(),8,6,2,2),
+	  	 (NOW(),NOW(),7,4,12,2),
+	  	 (NOW(),NOW(),4,7,13,2);
 	
---INSERT INTO public.transactions (date_transaction,total_price,order_id ,created_at,modified_at)
---VALUES
---	  	  ('2022-02-22',35000,1,NOW(),NOW()),
---	  	  ('2022-02-22',40000,3,NOW(),NOW()),
---	  	  ('2022-02-22',40000,3,NOW(),NOW()),
---	  	  ('2022-02-22',40000,3,NOW(),NOW()),
---	  	  ('2022-10-22',40000,3,NOW(),NOW()),
---	  	  ('2022-10-22',40000,3,NOW(),NOW()),
---	  	  ('2022-10-22',40000,3,NOW(),NOW()),
---	  	  ('2022-07-04',40000,3,NOW(),NOW()),
---	  	  ('2022-07-04',40000,3,NOW(),NOW()),
---	  	  ('2022-07-04',40000,3,NOW(),NOW()),
---	  	  ('2022-10-22',40000,3,NOW(),NOW()),
---	  	  ('2022-10-22',40000,3,NOW(),NOW()),
---	  	  ('2022-10-22',40000,3,NOW(),NOW()),
---	  	  ('2022-10-22',40000,3,NOW(),NOW()),
---	  	  ('2022-10-22',40000,3,NOW(),NOW());
+INSERT INTO public.transactions (created_at, modified_at,order_id,address_shipping,name_shipping,phone_shipping,zip_code)
+VALUES
+	  	 (NOW(),NOW(),2,'Jl. Raya Pekayon No.66B','jne','0813131313','23705'),
+	  	 (NOW(),NOW(),3,'Komplek PU Sapta Taruna 3','J&T','082190908080','40597'),
+	  	 (NOW(),NOW(),1,'Jl. Dasa Darma Blok II ','tiki','0822324243','23234'),
+	  	 (NOW(),NOW(),2,'Pasar Baru Jati Asih Blok A1','pos','0823333333','54434'),
+	  	 (NOW(),NOW(),1,'Mega Bekasi Hypermall UG','anteraja','082277777','98543'),
+	  	 (NOW(),NOW(),3,'Jl. Raya Dukuh Zamrud Selatan 3','lionparcel','0822444444','24356'),
+	  	 (NOW(),NOW(),5,'Mal Metropolitan, lantai dasar','gosend','0822555555','23705'),
+	  	 (NOW(),NOW(),4,'Jl. Raya Dukuh Zamrud Selatan 3','jne','082234890122','40597'),
+	  	 (NOW(),NOW(),3,'Jl. Letnan Arsyad Raya No.5','J&T','082234890122','23234'),
+	  	 (NOW(),NOW(),5,'Bekasi Junction, Jl. Ir. H. Juanda','tiki','082245678910','54434'),
+	  	 (NOW(),NOW(),4,'Jl. Letnan Arsyad Raya No.5','pos','082288003345','98543'),
+	  	 (NOW(),NOW(),3,'Mega Bekasi Hypermall, Jl. A.Yani','anteraja','082230302910','24356'),
+	  	 (NOW(),NOW(),2,'Jl. Letnan Arsyad Raya No.5','lionparcel','082277665544','23705'),
+	  	 (NOW(),NOW(),3,'Jl. Raya Jati Makmur No.11','gosend','082234890122','54434'),
+	  	 (NOW(),NOW(),4,'Jl. Ir. H. Juanda','J&T','0822324243','98543');
+	  	
