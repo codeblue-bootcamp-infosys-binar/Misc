@@ -4,21 +4,15 @@ Photos post/update
 {
   "photo_name": "Daniel Wellington Bistol Black",
   "photo_url": "https://1.bp.blogspot.com/-g37FOKQagj4/XmmsmEzzZcI/AAAAAAAAA_E/N6RN9_hyr9gmc9lnml3SaMIKpxg8KQo-QCLcBGAsYHQ/w1200-h630-p-k-no-nu/dwbristol.png",
-  "product": {
-    "productId": 4  
-	}
+  "product_id": "3"
 }
 =======================================================
 Product Category post/update
 
 postProductCategory
 {
-  "product": {
-    "productId": 1
-  },
-  "category": {
-    "categoriesId": 1
-  }
+   "product_id":2,
+   "category_id":2
 }
 =======================================================
 Cart post/update
