@@ -18,17 +18,10 @@ postProductCategory
 Cart post/update
 
 {
-  "buyer": {
-    "buyerId": 2
-  },
-  "product": {
-    "productId": 3
-  },
-  "quantity": 1,
-  "order": {
-    "orderId": 2
-
-  }
+  "buyer_id": 3,
+  "product_id": 3,
+  "order_id": 3,
+  "quantity": 3
 }
 =======================================================
 transaction post/update
@@ -59,7 +52,6 @@ payment post/update
   "name": "MandiriKu",
   "paymentCode": "sdj889"
 }
-
 
 =======================================================
 product post
