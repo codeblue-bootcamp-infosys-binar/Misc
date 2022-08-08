@@ -166,58 +166,58 @@ VALUES
 	  	 (NOW(),NOW(),4,7);
 	  	
 
-
-INSERT INTO public.orders (totalprice ,payment_id ,shipping_id , created_at,modified_at)
-VALUES
-	 	(12000,1,2,NOW(),NOW()),
-		(15000,3,2,NOW(),NOW()),
-		(10000,13,11,NOW(),NOW()),
-		(10000,12,10,NOW(),NOW()),
-		(20000,3,4,NOW(),NOW()),
-		(15000,14,6,NOW(),NOW()),
-		(10000,10,3,NOW(),NOW()),
-		(13000,11,8,NOW(),NOW()),
-		(16000,7,14,NOW(),NOW()),
-		(15000,8,15,NOW(),NOW()),
-		(12000,4,3,NOW(),NOW()),
-		(22000,15,8,NOW(),NOW()),
-		(22000,2,9,NOW(),NOW()),
-		(22000,9,2,NOW(),NOW()),
-		(22000,6,7,NOW(),NOW());
+--
+--INSERT INTO public.orders (totalprice ,payment_id ,shipping_id , created_at,modified_at)
+--VALUES
+--	 	(12000,1,2,NOW(),NOW()),
+--		(15000,3,2,NOW(),NOW()),
+--		(10000,13,11,NOW(),NOW()),
+--		(10000,12,10,NOW(),NOW()),
+--		(20000,3,4,NOW(),NOW()),
+--		(15000,14,6,NOW(),NOW()),
+--		(10000,10,3,NOW(),NOW()),
+--		(13000,11,8,NOW(),NOW()),
+--		(16000,7,14,NOW(),NOW()),
+--		(15000,8,15,NOW(),NOW()),
+--		(12000,4,3,NOW(),NOW()),
+--		(22000,15,8,NOW(),NOW()),
+--		(22000,2,9,NOW(),NOW()),
+--		(22000,9,2,NOW(),NOW()),
+--		(22000,6,7,NOW(),NOW());
 	
-INSERT INTO public.carts (created_at ,modified_at ,buyer_id , order_id, product_id,quantity)
-VALUES
-	  	 (NOW(),NOW(),2,2,3,3),
-	  	 (NOW(),NOW(),3,3,3,1),
-	  	 (NOW(),NOW(),1,2,4,2),
-	  	 (NOW(),NOW(),11,3,7,5),
-	  	 (NOW(),NOW(),10,1,9,1),
-	  	 (NOW(),NOW(),3,1,2,3),
-	  	 (NOW(),NOW(),5,5,8,2),
-	  	 (NOW(),NOW(),4,4,10,5),
-	  	 (NOW(),NOW(),3,5,11,1),
-	  	 (NOW(),NOW(),5,3,13,6),
-	  	 (NOW(),NOW(),14,4,3,1),
-	  	 (NOW(),NOW(),9,5,8,4),
-	  	 (NOW(),NOW(),8,6,2,2),
-	  	 (NOW(),NOW(),7,4,12,2),
-	  	 (NOW(),NOW(),4,7,13,2);
-	
-INSERT INTO public.transactions (created_at, modified_at,order_id,address_shipping,name_shipping,phone_shipping,zip_code)
-VALUES
-	  	 (NOW(),NOW(),2,'Jl. Raya Pekayon No.66B','jne','0813131313','23705'),
-	  	 (NOW(),NOW(),3,'Komplek PU Sapta Taruna 3','J&T','082190908080','40597'),
-	  	 (NOW(),NOW(),1,'Jl. Dasa Darma Blok II ','tiki','0822324243','23234'),
-	  	 (NOW(),NOW(),2,'Pasar Baru Jati Asih Blok A1','pos','0823333333','54434'),
-	  	 (NOW(),NOW(),1,'Mega Bekasi Hypermall UG','anteraja','082277777','98543'),
-	  	 (NOW(),NOW(),3,'Jl. Raya Dukuh Zamrud Selatan 3','lionparcel','0822444444','24356'),
-	  	 (NOW(),NOW(),5,'Mal Metropolitan, lantai dasar','gosend','0822555555','23705'),
-	  	 (NOW(),NOW(),4,'Jl. Raya Dukuh Zamrud Selatan 3','jne','082234890122','40597'),
-	  	 (NOW(),NOW(),3,'Jl. Letnan Arsyad Raya No.5','J&T','082234890122','23234'),
-	  	 (NOW(),NOW(),5,'Bekasi Junction, Jl. Ir. H. Juanda','tiki','082245678910','54434'),
-	  	 (NOW(),NOW(),4,'Jl. Letnan Arsyad Raya No.5','pos','082288003345','98543'),
-	  	 (NOW(),NOW(),3,'Mega Bekasi Hypermall, Jl. A.Yani','anteraja','082230302910','24356'),
-	  	 (NOW(),NOW(),2,'Jl. Letnan Arsyad Raya No.5','lionparcel','082277665544','23705'),
-	  	 (NOW(),NOW(),3,'Jl. Raya Jati Makmur No.11','gosend','082234890122','54434'),
-	  	 (NOW(),NOW(),4,'Jl. Ir. H. Juanda','J&T','0822324243','98543');
-	  	
+--INSERT INTO public.carts (created_at ,modified_at ,buyer_id , order_id, product_id,quantity)
+--VALUES
+--	  	 (NOW(),NOW(),2,2,3,3),
+--	  	 (NOW(),NOW(),3,3,3,1),
+--	  	 (NOW(),NOW(),1,2,4,2),
+--	  	 (NOW(),NOW(),11,3,7,5),
+--	  	 (NOW(),NOW(),10,1,9,1),
+--	  	 (NOW(),NOW(),3,1,2,3),
+--	  	 (NOW(),NOW(),5,5,8,2),
+--	  	 (NOW(),NOW(),4,4,10,5),
+--	  	 (NOW(),NOW(),3,5,11,1),
+--	  	 (NOW(),NOW(),5,3,13,6),
+--	  	 (NOW(),NOW(),14,4,3,1),
+--	  	 (NOW(),NOW(),9,5,8,4),
+--	  	 (NOW(),NOW(),8,6,2,2),
+--	  	 (NOW(),NOW(),7,4,12,2),
+--	  	 (NOW(),NOW(),4,7,13,2);
+--	
+--INSERT INTO public.transactions (created_at, modified_at,order_id,address_shipping,name_shipping,phone_shipping,zip_code)
+--VALUES
+--	  	 (NOW(),NOW(),2,'Jl. Raya Pekayon No.66B','jne','0813131313','23705'),
+--	  	 (NOW(),NOW(),3,'Komplek PU Sapta Taruna 3','J&T','082190908080','40597'),
+--	  	 (NOW(),NOW(),1,'Jl. Dasa Darma Blok II ','tiki','0822324243','23234'),
+--	  	 (NOW(),NOW(),2,'Pasar Baru Jati Asih Blok A1','pos','0823333333','54434'),
+--	  	 (NOW(),NOW(),1,'Mega Bekasi Hypermall UG','anteraja','082277777','98543'),
+--	  	 (NOW(),NOW(),3,'Jl. Raya Dukuh Zamrud Selatan 3','lionparcel','0822444444','24356'),
+--	  	 (NOW(),NOW(),5,'Mal Metropolitan, lantai dasar','gosend','0822555555','23705'),
+--	  	 (NOW(),NOW(),4,'Jl. Raya Dukuh Zamrud Selatan 3','jne','082234890122','40597'),
+--	  	 (NOW(),NOW(),3,'Jl. Letnan Arsyad Raya No.5','J&T','082234890122','23234'),
+--	  	 (NOW(),NOW(),5,'Bekasi Junction, Jl. Ir. H. Juanda','tiki','082245678910','54434'),
+--	  	 (NOW(),NOW(),4,'Jl. Letnan Arsyad Raya No.5','pos','082288003345','98543'),
+--	  	 (NOW(),NOW(),3,'Mega Bekasi Hypermall, Jl. A.Yani','anteraja','082230302910','24356'),
+--	  	 (NOW(),NOW(),2,'Jl. Letnan Arsyad Raya No.5','lionparcel','082277665544','23705'),
+--	  	 (NOW(),NOW(),3,'Jl. Raya Jati Makmur No.11','gosend','082234890122','54434'),
+--	  	 (NOW(),NOW(),4,'Jl. Ir. H. Juanda','J&T','0822324243','98543');
+--	  	
