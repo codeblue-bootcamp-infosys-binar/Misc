@@ -1,0 +1,53 @@
+
+Order order = findByBuyer
+
+order.listCart.product.photos
+order.listCart.product.categories
+
+=================================================================================
+/orderSuccess
+
+Order order = findByBuyer
+for(Cart cart : listCart){
+        List<Photo> photo = cart.getProduct().getPhotos();
+        Photo photoget = photo.get(0);
+        PhotoProductDTO photoDTO = photoget.convertToProduct();
+        List<Category> categories = categoryService.findByProductId(cart.getProduct().getProductId());
+        String category = categories.stream()
+                .map(Category::getName)
+                .collect(Collectors.joining(","));
+	Transaction transaction = new Transaction();
+	transaction.setProductId(cart.getProcuct().getProductID());
+	transaction.setBuyer(order.getbuyerid)
+	transaction.setPhoto(photo)
+	transactionRepository.save(tranasction);
+}
+find orderbybuyerid
+delete orderbyorderid
+find cartbybuyerid 
+deleteAll bybuyerid
+
+==============================================================
+
+cart findOrderBybuyerId
+
+new order
+
+->
+
+update order, findOrderBybuyerId
+
+create order.
+
+create transactions.
+masukkin parameter order , etc
+find orderbybuyerid
+delete by order.
+find cartbybuyerid 
+deleteAll bybuyerid
+
+1 order = 1 buyer
+
+
+
+standalone history transaction (mencatat order, setelah order dan cart dihapus by buyer id)

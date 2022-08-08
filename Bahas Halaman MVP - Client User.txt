@@ -1,0 +1,56 @@
+User History
+
+endpoint yg selalu ada
+  == link to home - get All product
+
+- halaman login
+  == validation user
+  == get user by user.username
+  == login as buyer(validation if buyer exist  -> homepage for buyer, 
+	if buyer not exist -> create buyer -> homepage for buyer
+  == login as seller(validation if buyer exist  -> homepage for seller, 
+	if buyer not exist -> create seller -> halaman create seller
+
+- halaman create seller
+  == create seller
+  == success create -> homepage for seller  
+
+- Homepage for buyer
+  == get All product 
+  == get All category
+  == validator , if user exist -> endpoint create wishlist, endpoint create cart
+     if not exist -> endpoint login -> endpoint register
+  == get list cart by buyer.user.name
+  == get list wishlist by buyer.user.name
+  == delete wishlist by id
+  == delete cart by id
+
+- Halaman Register
+  == create user
+
+- Homepage for seller
+  == get All product by seller.user.username
+  == endpoint create - edit product
+
+- halaman List product by category
+  == get All category 
+  == get ALl product by category
+
+- halaman order 
+  == get All category 
+  == get order by jwttoken -> DTO cuman nampilin total price dan listCart
+  == update order 
+  == create transaction
+
+- history order
+  == validation if as buyer get List order by buyer.user.username
+	-> List<DTO order> -> nampilin listcart(product id, photo) + price
+        -> DTO order -> isi semuanya.
+  == validation if as seller get List order by seller.user.username 
+	-> List<DTO order> -> nampilin listcart(product id, photo) + price
+        -> DTO order -> isi semuanya.
+
+
+
+   
+
