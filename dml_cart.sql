@@ -180,10 +180,10 @@ VALUES
 		(16000,7,14,NOW(),NOW()),
 		(15000,8,15,NOW(),NOW()),
 		(12000,4,3,NOW(),NOW()),
-		(10000,15,8,NOW(),NOW()),
-		(10000,2,9,NOW(),NOW()),
-		(10000,9,2,NOW(),NOW()),
-		(10000,6,7,NOW(),NOW());
+		(22000,15,8,NOW(),NOW()),
+		(22000,2,9,NOW(),NOW()),
+		(22000,9,2,NOW(),NOW()),
+		(22000,6,7,NOW(),NOW());
 	
 INSERT INTO public.carts (created_at ,modified_at ,buyer_id , order_id, product_id,quantity)
 VALUES
