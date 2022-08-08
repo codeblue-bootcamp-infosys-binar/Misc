@@ -36,12 +36,11 @@ transaction post/update
   "phoneShipping": "080790111"
 }
 =======================================================
-order update
+order post/update
 {
   "orderId": 3,
   "paymentId": 10,
-  "shippingId": 2,
-  "totalprice": 0
+  "shippingId": 2
 }
 =======================================================
 payment post/update
