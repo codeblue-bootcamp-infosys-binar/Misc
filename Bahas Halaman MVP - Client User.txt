@@ -38,17 +38,13 @@ endpoint yg selalu ada
 
 - halaman order 
   == get All category 
-  == get order by jwttoken -> DTO cuman nampilin total price dan listCart
+  == get order by buyer id -> DTO cuman nampilin total price dan listCart
   == update order 
   == create transaction
 
 - history order
-  == validation if as buyer get List order by buyer.user.username
-	-> List<DTO order> -> nampilin listcart(product id, photo) + price
-        -> DTO order -> isi semuanya.
-  == validation if as seller get List order by seller.user.username 
-	-> List<DTO order> -> nampilin listcart(product id, photo) + price
-        -> DTO order -> isi semuanya.
+  == get history_transaction by buyerid
+  == get history_transaction by sellerid
 
 
 
