@@ -1,1 +1,3 @@
-# diagram
+# Misc
+
+Hal - hal yang mendukung project
