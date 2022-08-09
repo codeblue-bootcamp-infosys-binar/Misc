@@ -1,0 +1,81 @@
+Create User
+
+{
+  "name": "Salahuddin",
+  "username": "salah",
+  "email": "salah@gmail.com",
+  "password": "salah",
+  "phone": "salah",
+  "photo": "https://4.bp.blogspot.com/-KDJYhS0zK0E/VnGH_wijWwI/AAAAAAAAEYY/Vd5V3P7uBnM/s640/great%2Bprogramming%2Bquotes.jpg",
+  "address": "Jalan simalungun"
+}
+
+Create Seller
+
+{
+  "userId": 16,
+  "storeName": "mosnter",
+  "storePhoto": "https://images.samsung.com/is/image/samsung/p6pim/id/2108/gallery/id-galaxy-watch4-classic-399252-sm-r890nzkaxse-481182055?$650_519_PNG$",
+  "storeAddress": "Yogya jaya"
+}
+
+Create Produk
+
+{
+  "sellerId": 16,
+  "description": "jam tangan",
+  "price": 10000,
+  "productName": "jam tangal gas keun"
+}
+
+Create photo
+
+{
+  "photo_name": "jam tangan",
+  "photo_url": "https://4.bp.blogspot.com/-KDJYhS0zK0E/VnGH_wijWwI/AAAAAAAAEYY/Vd5V3P7uBnM/s640/great%2Bprogramming%2Bquotes.jpg",
+  "product_id": 16
+}
+
+Creat product category
+
+{
+  "product_id": 16,
+  "category_id": 3
+}
+Create Buyer
+{
+  "user_id": 16
+}
+
+Create wishlist
+
+{
+  "buyer": {
+    "buyerId": 16
+  },
+  "product": {
+    "productId": 16
+  },
+  "quantity": 5
+}
+
+Create Cart (buyer id)		ATAU         Get  wishlistTocart (id buyer)			
+	{
+  "buyer_id": 16,
+  "product_id": 11,
+  "quantity": 1
+}
+
+Get orderbybuyer(id buyer)
+
+update order
+{
+  "paymentId": 1,
+  "shippingId": 1,
+  "destination_name": "bang nestle",
+  "destination_address": "jakarta timur",
+  "destination_phone": "080799900",
+  "zip_code": "12999"
+}
+
+finishorder (buyer id)
