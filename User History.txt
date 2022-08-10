@@ -50,23 +50,19 @@ Create Buyer
 Create wishlist
 
 {
-  "buyer": {
-    "buyerId": 16
-  },
-  "product": {
-    "productId": 16
-  },
+  "buyerId": 16,
+  "productId": 16,
   "quantity": 5
 }
 
-Create Cart (buyer id)		ATAU         Get  wishlistTocart (id buyer)			
-	{
+Create Cart (buyer id)		ATAU         Get  wishlistTocart (id buyer) (bug, wishlist kehapus hanya 1)			
+{
   "buyer_id": 16,
   "product_id": 11,
   "quantity": 1
 }
 
-Get orderbybuyer(id buyer)
+Get orderbybuyer(id buyer) (potensi ambiguitas endpoint)
 
 update order
 {
