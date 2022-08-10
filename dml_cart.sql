@@ -166,6 +166,28 @@ VALUES
 	  	 (NOW(),NOW(),4,7);
 	  	
 
+INSERT INTO public.roles (created_at,modified_at,role_name) VALUES
+	 (now(),now(),'ROLE_ADMIN'),
+	 (now(),now(),'ROLE_USER');
+
+INSERT INTO public.user_role (created_at,modified_at,role_id,user_id) VALUES
+	 (now(),now(),1,1),
+	 (now(),now(),2,2),
+	 (now(),now(),2,3),
+	 (now(),now(),1,4),
+	 (now(),now(),2,5),
+	 (now(),now(),2,6),
+	 (now(),now(),2,7),
+	 (now(),now(),2,8),
+	 (now(),now(),2,9),
+	 (now(),now(),2,10),
+	 (now(),now(),2,11),
+	 (now(),now(),2,12),
+	 (now(),now(),2,13),
+	 (now(),now(),1,14),
+	 (now(),now(),1,15),
+	 (now(),now(),2,4);
+
 --
 --INSERT INTO public.orders (totalprice ,payment_id ,shipping_id , created_at,modified_at)
 --VALUES
