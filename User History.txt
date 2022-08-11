@@ -22,7 +22,7 @@ Create Seller
   "storeAddress": "Yogya jaya"
 }
 
-Create Produk (harus ny 4 batas, sekarang mas 5)
+Create Produk 
 
 {
   "sellerId": 16,
@@ -35,7 +35,6 @@ Create photo
 
 {
   "photo_name": "jam tangan",
-  "photo_url": "https://4.bp.blogspot.com/-KDJYhS0zK0E/VnGH_wijWwI/AAAAAAAAEYY/Vd5V3P7uBnM/s640/great%2Bprogramming%2Bquotes.jpg",
   "product_id": 16
 }
 
