@@ -1,13 +1,16 @@
 Create User
 
 {
-  "name": "Salahuddin",
-  "username": "salah",
-  "email": "salah@gmail.com",
-  "password": "salah",
-  "phone": "salah",
+  "name": "codeBlue",
+  "username": "codeBlue",
+  "email_id": "codeBlue@gmail.com",
+  "password": "codeBlue",
+  "phone": "codeBlue",
   "photo": "https://4.bp.blogspot.com/-KDJYhS0zK0E/VnGH_wijWwI/AAAAAAAAEYY/Vd5V3P7uBnM/s640/great%2Bprogramming%2Bquotes.jpg",
-  "address": "Jalan simalungun"
+  "address": "codeBlue",
+  "roles": [
+    "ROLE_USER"
+  ]
 }
 
 Create Seller
