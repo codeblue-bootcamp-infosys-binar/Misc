@@ -19,7 +19,7 @@ Create Seller
   "storeAddress": "Yogya jaya"
 }
 
-Create Produk
+Create Produk (harus ny 4 batas, sekarang mas 5)
 
 {
   "sellerId": 16,
@@ -36,7 +36,7 @@ Create photo
   "product_id": 16
 }
 
-Creat product category
+Creat product category (response productCategory/product/id
 
 {
   "product_id": 16,
@@ -47,7 +47,7 @@ Create Buyer
   "user_id": 16
 }
 
-Create wishlist
+Create wishlist (bug atau salah input username, buyer/username)
 
 {
   "buyerId": 16,
@@ -55,7 +55,7 @@ Create wishlist
   "quantity": 5
 }
 
-Create Cart (buyer id)		ATAU         Get  wishlistTocart (id buyer) (bug, wishlist kehapus hanya 1)			
+Create Cart (buyer id)		ATAU         Get  wishlistTocart (id buyer) (response ny balikan klo ga ada)			
 {
   "buyer_id": 16,
   "product_id": 11,

@@ -34,6 +34,13 @@ history transactions_details
     private String store_address;
 */
 
+d dalam history transaction :
+product_name
+store_name
+quantity
+subtotal price
+
+d dalam cart ada sub total = quantity * productPrice;
 
 
 
