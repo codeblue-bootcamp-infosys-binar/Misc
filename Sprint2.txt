@@ -1,11 +1,9 @@
 
-- (Bayu) Security
+- (Bayu) Security - JWT
 - (Rifky) Logger
 - (Alya) Mock - up figma
 - (Andri) Jasper Report Invoice Transasction_details
 - (Andri) Dokumentasi
-- (Ade) JWT
 - () Pagination Product 
 - () Pagination Transasction
 - () Pagination Transasction_details
-- 
