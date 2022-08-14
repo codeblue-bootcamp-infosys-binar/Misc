@@ -1,0 +1,37 @@
+Sprint 1 MVP
+
+User
+
+- (andri) login 
+- (andri) registration 
+- (andri) identify as seller 
+- (andri) update seller by user.name  (validation -principal.get.user)
+- (bayu) post - edit - delete product (validation -principal.get.user) (create product categories by list categories in product request) (max 4 per sellerid
+- (ade) post- edit - delete photo (validation -principal.get.user) (max 4 per product)
+- (bayu) get ALl product by seller id
+- (ade) identify as buyer
+- (bayu) get product by id
+- (bayu) get All product
+- (bayu) get All product by category
+- (rifky) post- edit - delete wishlist, get wishlist by buyerid  (validation -principal.get.user)
+- (ade) post- edit - delete cart , get cart by buyerid  (validation -principal.get.user)
+- (ade) post wishlist to cart 
+- (alya) update order , get order by seller id  (validation -principal.get.user)
+- (ade) finish order (post transaction/details) , get by lasttransactiondetails Seller id (validation -principal.get.user)
+- (ade) get transaction_details
+
+Admin
+
+- (Andri) edit delete user , get All
+- (Andri) edit - delete seller , get All
+- (bayu) post - edit - delete product 
+- (RIfky) post - edit - delete shipping, get All
+- (alya) post - edit - delete payment, get All
+- (Ade) get All photo 
+- (RIfky) get All buyer
+- (RIfky) post - edit - delete wishlist, get Allwishlist
+- (Ade) post- edit - delete cart, get All order
+- (alya) post- edit - delete order, get All order
+- (ade) post - edit delete transaction, get All transaction
+- (ade) post - edit delete transaction_details, get All transaction_details
+
