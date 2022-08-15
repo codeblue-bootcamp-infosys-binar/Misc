@@ -66,23 +66,23 @@ Petite Cornwall menangkap esensi kesederhanaan dan gaya sejati. Mengunggulkan st
 ('DESAIN KLASIK BERPADU DENGAN MINIMALISME MODERN
 Petite Bondi, dengan strap kulit warna putih dan arloji putih telur, menampilkan kesederhanaan dan keanggunan. Jam ultra-tipis ini duduk dengan manis di tangan Anda dan menyoroti semangat Anda yang membara dalam gaya. Tersedia dengan warna rose gold atau silver.', 'PETITE BONDI',2817000, 11, NOW(),NOW());
 
-INSERT INTO public.photos  (created_at ,modified_at ,photo_name,photourl,product_id)
+INSERT INTO public.photos  (created_at ,modified_at,photourl,product_id)
 values
-(NOW(),NOW(),'java','https://introcs.cs.princeton.edu/java/11cheatsheet/images/hello.png',2),
-(NOW(),NOW(),'javac','https://www3.ntu.edu.sg/home/ehchua/programming/java/images/programming_steps.gif',3),
-(NOW(),NOW(),'jdk','https://i.pinimg.com/originals/6e/03/21/6e0321597039afa3bc11d02d52fdfa6e.jpg',1),
-(NOW(),NOW(),'jvm','https://i.pinimg.com/originals/c2/e2/67/c2e26700b40bf55efa8d0ac05977e5c0.jpg',6),
-(NOW(),NOW(),'codejava','https://www.quotemaster.org/images/fa/faafd5631151dcdec1d045b2659a5369.png',6),
-(NOW(),NOW(),'codejdk','https://introcs.cs.princeton.edu/java/11cheatsheet/images/hello.png',1),
-(NOW(),NOW(),'codejavac','https://www3.ntu.edu.sg/home/ehchua/programming/java/images/programming_steps.gif',4),
-(NOW(),NOW(),'kotlin','https://i.pinimg.com/originals/6e/03/21/6e0321597039afa3bc11d02d52fdfa6e.jpg',5),
-(NOW(),NOW(),'backendgolang','https://i.pinimg.com/originals/c2/e2/67/c2e26700b40bf55efa8d0ac05977e5c0.jpg',7),
-(NOW(),NOW(),'backendjava','https://www.quotemaster.org/images/fa/faafd5631151dcdec1d045b2659a5369.png',2),
-(NOW(),NOW(),'backendnodejs','https://introcs.cs.princeton.edu/java/11cheatsheet/images/hello.png',4),
-(NOW(),NOW(),'backendruby','https://www3.ntu.edu.sg/home/ehchua/programming/java/images/programming_steps.gif',9),
-(NOW(),NOW(),'programmerjava','https://i.pinimg.com/originals/6e/03/21/6e0321597039afa3bc11d02d52fdfa6e.jpg',6),
-(NOW(),NOW(),'programmergolang','https://i.pinimg.com/originals/c2/e2/67/c2e26700b40bf55efa8d0ac05977e5c0.jpg',8),
-(NOW(),NOW(),'programmergas','https://www.quotemaster.org/images/fa/faafd5631151dcdec1d045b2659a5369.png',7);
+(NOW(),NOW(),'https://introcs.cs.princeton.edu/java/11cheatsheet/images/hello.png',2),
+(NOW(),NOW(),'https://www3.ntu.edu.sg/home/ehchua/programming/java/images/programming_steps.gif',3),
+(NOW(),NOW(),'https://i.pinimg.com/originals/6e/03/21/6e0321597039afa3bc11d02d52fdfa6e.jpg',1),
+(NOW(),NOW(),'https://i.pinimg.com/originals/c2/e2/67/c2e26700b40bf55efa8d0ac05977e5c0.jpg',6),
+(NOW(),NOW(),'https://www.quotemaster.org/images/fa/faafd5631151dcdec1d045b2659a5369.png',6),
+(NOW(),NOW(),'https://introcs.cs.princeton.edu/java/11cheatsheet/images/hello.png',1),
+(NOW(),NOW(),'https://www3.ntu.edu.sg/home/ehchua/programming/java/images/programming_steps.gif',4),
+(NOW(),NOW(),'https://i.pinimg.com/originals/6e/03/21/6e0321597039afa3bc11d02d52fdfa6e.jpg',5),
+(NOW(),NOW(),'https://i.pinimg.com/originals/c2/e2/67/c2e26700b40bf55efa8d0ac05977e5c0.jpg',7),
+(NOW(),NOW(),'https://www.quotemaster.org/images/fa/faafd5631151dcdec1d045b2659a5369.png',2),
+(NOW(),NOW(),'https://introcs.cs.princeton.edu/java/11cheatsheet/images/hello.png',4),
+(NOW(),NOW(),'https://www3.ntu.edu.sg/home/ehchua/programming/java/images/programming_steps.gif',9),
+(NOW(),NOW(),'https://i.pinimg.com/originals/6e/03/21/6e0321597039afa3bc11d02d52fdfa6e.jpg',6),
+(NOW(),NOW(),'https://i.pinimg.com/originals/c2/e2/67/c2e26700b40bf55efa8d0ac05977e5c0.jpg',8),
+(NOW(),NOW(),'https://www.quotemaster.org/images/fa/faafd5631151dcdec1d045b2659a5369.png',7);
 		 
 INSERT INTO public.payments (name, payment_code, created_at, modified_at)
 VALUES
