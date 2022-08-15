@@ -1,0 +1,25 @@
+
+- bangsat emang mas ade
+
+ppt / showcase ->
+- jelasin what has been done
+- jelasin what do next
+- sulit membaca ERD dlm waktu 10 detik
+  tolong dipresentasikan ERD utamanya
+- membandingkan design FE dan BE kiri dan kanan
+- Di demo udah ada Test case
+- Slide perlu dioptimalkan
+- dua slide: class diagram dan ERD redundant
+- aslinya yang presentasi cuma satu orang
+- jangan bolak balik, pilih pengaturan yang pas
+- tech stack nya udah bener
+- Slide perlu dikemas lebih menarik
+
+sprint ->
+- belom dapet list tapi belom selesai
+- jelasin soal backlog berdasarkan selesai atau belum
+  berdasarkan sprint minggu 1 atau 2
+
+mvp =>
+- pas create product, brp jumlah product terjual ada logicnya
+- kalo data null, apakah harus dikembalikan sbg response
