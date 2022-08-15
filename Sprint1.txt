@@ -1,6 +1,6 @@
 Sprint 1 MVP
 
-User
+User (endpoint start with /user)
 
 - (andri) login 
 - (andri) registration 
@@ -20,7 +20,7 @@ User
 - (ade) finish order (post transaction/details) , get by lasttransactiondetails Seller id (validation -principal.get.user)
 - (ade) get transaction_details
 
-Admin
+Admin (endpoint start with /dashboard)
 
 - (Andri) edit delete user , get All
 - (Andri) edit - delete seller , get All
