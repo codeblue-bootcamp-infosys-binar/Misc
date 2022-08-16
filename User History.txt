@@ -1,79 +1,73 @@
-Create User (unique = name, username, email_id, phone)
+Registration User
 
 {
   "name": "codeBlue",
   "username": "codeBlue",
-  "email_id": "codeBlue@gmail.com",
+  "email": "codeBlue@gmail.com",
   "password": "codeBlue",
   "phone": "codeBlue",
-  "photo": "https://4.bp.blogspot.com/-KDJYhS0zK0E/VnGH_wijWwI/AAAAAAAAEYY/Vd5V3P7uBnM/s640/great%2Bprogramming%2Bquotes.jpg",
   "address": "codeBlue",
   "roles": [
     "ROLE_USER"
   ]
 }
 
-Create Seller
+Login (copy jwt in authorization)
+
+Login as seller
 
 {
-  "userId": 16,
-  "storeName": "mosnter",
-  "storePhoto": "https://images.samsung.com/is/image/samsung/p6pim/id/2108/gallery/id-galaxy-watch4-classic-399252-sm-r890nzkaxse-481182055?$650_519_PNG$",
-  "storeAddress": "Yogya jaya"
+  "storeName": "Blue Store",
+  "storeAddress": "Jalan Mawar No 36, Yogyakarta"
 }
 
-Create Produk 
+Post Produk 
 
 {
-  "sellerId": 16,
-  "description": "jam tangan",
-  "price": 10000,
-  "productName": "jam tangal gas keun"
+  "productName": "jam tangal rolex",
+  "description": "jam tangan premium buatan swiss dilapisi emas dan berlian",
+  "price": 200000000,
+  "category": [
+    "watches",
+    "men watches"
+  ]
 }
 
-Create photo
+Post photo with product id / last product seller
 
 {
-  "photo_name": "jam tangan",
   "product_id": 16
 }
 
-Creat product category (response productCategory/product/id
+- login As Buyer
+
+Add wishlist
 
 {
-  "product_id": 16,
-  "category_id": 3
-}
-Create Buyer
-{
-  "user_id": 16
-}
-
-Create wishlist (bug atau salah input username, buyer/username)
-
-{
-  "buyerId": 16,
   "productId": 16,
   "quantity": 5
 }
 
-Create Cart (buyer id)		ATAU         Get  wishlistTocart (id buyer) (response ny balikan klo ga ada)			
+wishlist to cart
+
+Create Cart (buyer id)		
 {
-  "buyer_id": 16,
   "product_id": 11,
   "quantity": 1
 }
 
-Get orderbybuyer(id buyer) (potensi ambiguitas endpoint)
+get my order
 
 update order
 {
-  "paymentId": 1,
-  "shippingId": 1,
+  "payment": "OVO",
+  "shippingId": "JNE",
   "destination_name": "bang nestle",
   "destination_address": "jakarta timur",
   "destination_phone": "080799900",
   "zip_code": "12999"
 }
 
-finishorder (buyer id)
+checkout order (buyer id)
+
+my transactions
