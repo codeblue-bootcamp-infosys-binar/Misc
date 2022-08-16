@@ -32,7 +32,7 @@ VALUES
 	('Bekasi Junction, Jl. Ir. H. Juanda','Intan Jaya','https://www.seikowatches.com/id-id/-/media/Images/GlobalEn/Seiko/Home/stores/store_image.jpg?mh=1125&mw=2000&hash=A7633EB5B0D8E9A913765A1F1ED7566C',12,NOW(),NOW()),
 	('Mega Bekasi Hypermall, Jl. A.Yani','Citra Arloji','https://zworks.net/files/2021/08/Watch-Store-Interior-Design-3d-model-1.jpg',13,NOW(),NOW()),
 	('Jl. Letnan Arsyad Raya No.5','Sunaku Watch','https://rimage.gnst.jp/livejapan.com/public/img/spot/lj/00/06/lj0006967/lj0006967_5eaa9c9ad823d_main.jpg?20210621040011&q=80',14,NOW(),NOW()),
-	('Mall Metropolitan Lt.1 106, JL. KH. Noerali','Citra Arloji','https://static.gltjp.com/glt/prd/data/article/12000/11917/20180920_234806_f6dc5b9d_w1920.jpg',15,NOW(),NOW());   
+	('Mall Metropolitan Lt.1 106, JL. KH. Noerali','Cahaya Arloji','https://static.gltjp.com/glt/prd/data/article/12000/11917/20180920_234806_f6dc5b9d_w1920.jpg',15,NOW(),NOW());   
 
 
 INSERT INTO public.buyers  ("user_id" , created_at,modified_at)
@@ -141,11 +141,11 @@ VALUES
 
 insert into public.categories (name, created_at, modified_at)
 values 
-('Watches', NOW(),NOW()),
-('Women Watches', NOW(),NOW()),
-('Men Watches', NOW(),NOW()),
-('Straps', NOW(),NOW()),
-('Jewelry', NOW(),NOW());
+('WATCHES', NOW(),NOW()),
+('WOMEN WATCHES', NOW(),NOW()),
+('MEN WATCHES', NOW(),NOW()),
+('STRAPS', NOW(),NOW()),
+('JEWELRY', NOW(),NOW());
 	  	
 INSERT INTO public.product_category (created_at ,modified_at ,category_id ,product_id)
 VALUES
