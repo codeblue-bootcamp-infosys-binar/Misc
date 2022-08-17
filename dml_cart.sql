@@ -191,7 +191,9 @@ INSERT INTO public.user_role (created_at,modified_at,role_id,user_id) VALUES
 	 (now(),now(),2,14),
 	 (now(),now(),2,15),
 	 (now(),now(),2,12);
-
+	
+CREATE extension IF NOT EXISTS pgcrypto;
+UPDATE public.Users SET password = crypt("password" ,gen_salt('bf'));
 --
 --INSERT INTO public.orders (totalprice ,payment_id ,shipping_id , created_at,modified_at)
 --VALUES
