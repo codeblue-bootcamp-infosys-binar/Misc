@@ -1,9 +1,10 @@
 
 - (Bayu) Security - JWT
-- (Rifky) Logger
+- (Rifky) Logger + https://trevor.io/
 - (Alya) Mock - up figma
 - (Andri) Jasper Report Invoice Transasction_details
-- (Andri) Dokumentasi
-- () Pagination Product 
-- () Pagination Transasction
-- () Pagination Transasction_details
+- (Andri) Dokumentasi + eksplor dokumentasi postman
+- (Adnri) perbaiki ppt
+- (Bayu) Pagination Product 
+- (?) Pagination Transasction
+- (?) Pagination Transasction_details
