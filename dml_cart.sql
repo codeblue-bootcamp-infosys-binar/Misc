@@ -37,11 +37,11 @@ VALUES
 
 INSERT INTO public.buyers  ("user_id" , created_at,modified_at)
 values
-('1',NOW(),NOW()),('2',NOW(),NOW()),('2',NOW(),NOW()),
+('1',NOW(),NOW()),('2',NOW(),NOW()),('3',NOW(),NOW()),
 ('4',NOW(),NOW()),('5',NOW(),NOW()),('6',NOW(),NOW()),
-('7',NOW(),NOW()),('8',NOW(),NOW()),('11',NOW(),NOW()),
-('12',NOW(),NOW()),('13',NOW(),NOW()),('14',NOW(),NOW()),
-('15',NOW(),NOW()),('11',NOW(),NOW()),('12',NOW(),NOW());
+('7',NOW(),NOW()),('8',NOW(),NOW()),('9',NOW(),NOW()),
+('15',NOW(),NOW()),('14',NOW(),NOW()),('13',NOW(),NOW()),
+('12',NOW(),NOW()),('11',NOW(),NOW()),('10',NOW(),NOW());
 
 INSERT INTO public.products (description , product_name ,price ,  seller_id , created_at,modified_at)
 VALUES
