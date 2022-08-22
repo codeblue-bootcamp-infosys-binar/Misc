@@ -1,12 +1,12 @@
 Registration User
 
 {
-  "name": "codeBlue",
-  "username": "codeBlue",
-  "email": "codeBlue@gmail.com",
-  "password": "codeBlue",
-  "phone": "codeBlue",
-  "address": "codeBlue",
+  "name": "Nadine",
+  "username": "Nadine_1st",
+  "email": "nadine@ist.id",
+  "password": "infosystTerbaik77",
+  "phone": "081340044004",
+  "address": "Jalan Soekarno Hatta Nomor 19, RT/RW 07/01. kel. cibrebes, kec. citayam, depok",
   "roles": [
     "ROLE_USER"
   ]
@@ -17,14 +17,14 @@ Login (copy jwt in authorization)
 Login as seller
 
 {
-  "storeName": "Blue Store",
+  "storeName": "1st Store",
   "storeAddress": "Jalan Mawar No 36, Yogyakarta"
 }
 
 Post Produk 
 
 {
-  "productName": "jam tangal rolex",
+  "productName": "jam rolex #40 series",
   "description": "jam tangan premium buatan swiss dilapisi emas dan berlian",
   "price": 200000000,
   "category": [
@@ -61,11 +61,11 @@ get my order
 update order
 {
   "payment": "OVO",
-  "shippingId": "JNE",
-  "destination_name": "bang nestle",
-  "destination_address": "jakarta timur",
+  "shipping": "JNE",
+  "destination_name": "bayu aji infosys",
+  "destination_address": "Jalan pegangsaan 23, RT/RW 01/03, kel.cawang, kec. kramatjati, jakarta timur",
   "destination_phone": "080799900",
-  "zip_code": "12999"
+  "zip_code": "23092"
 }
 
 checkout order (buyer id)
