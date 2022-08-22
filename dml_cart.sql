@@ -68,21 +68,21 @@ Petite Bondi, dengan strap kulit warna putih dan arloji putih telur, menampilkan
 
 INSERT INTO public.photos  (created_at ,modified_at,photourl,product_id)
 values
-(NOW(),NOW(),'https://introcs.cs.princeton.edu/java/11cheatsheet/images/hello.png',2),
-(NOW(),NOW(),'https://www3.ntu.edu.sg/home/ehchua/programming/java/images/programming_steps.gif',3),
-(NOW(),NOW(),'https://i.pinimg.com/originals/6e/03/21/6e0321597039afa3bc11d02d52fdfa6e.jpg',1),
-(NOW(),NOW(),'https://i.pinimg.com/originals/c2/e2/67/c2e26700b40bf55efa8d0ac05977e5c0.jpg',6),
+(NOW(),NOW(),'https://introcs.cs.princeton.edu/java/11cheatsheet/images/hello.png',10),
+(NOW(),NOW(),'https://www3.ntu.edu.sg/home/ehchua/programming/java/images/programming_steps.gif',9),
+(NOW(),NOW(),'https://i.pinimg.com/originals/6e/03/21/6e0321597039afa3bc11d02d52fdfa6e.jpg',8),
+(NOW(),NOW(),'https://i.pinimg.com/originals/c2/e2/67/c2e26700b40bf55efa8d0ac05977e5c0.jpg',7),
 (NOW(),NOW(),'https://www.quotemaster.org/images/fa/faafd5631151dcdec1d045b2659a5369.png',6),
 (NOW(),NOW(),'https://introcs.cs.princeton.edu/java/11cheatsheet/images/hello.png',1),
-(NOW(),NOW(),'https://www3.ntu.edu.sg/home/ehchua/programming/java/images/programming_steps.gif',4),
-(NOW(),NOW(),'https://i.pinimg.com/originals/6e/03/21/6e0321597039afa3bc11d02d52fdfa6e.jpg',5),
-(NOW(),NOW(),'https://i.pinimg.com/originals/c2/e2/67/c2e26700b40bf55efa8d0ac05977e5c0.jpg',7),
-(NOW(),NOW(),'https://www.quotemaster.org/images/fa/faafd5631151dcdec1d045b2659a5369.png',2),
-(NOW(),NOW(),'https://introcs.cs.princeton.edu/java/11cheatsheet/images/hello.png',4),
-(NOW(),NOW(),'https://www3.ntu.edu.sg/home/ehchua/programming/java/images/programming_steps.gif',9),
-(NOW(),NOW(),'https://i.pinimg.com/originals/6e/03/21/6e0321597039afa3bc11d02d52fdfa6e.jpg',6),
-(NOW(),NOW(),'https://i.pinimg.com/originals/c2/e2/67/c2e26700b40bf55efa8d0ac05977e5c0.jpg',8),
-(NOW(),NOW(),'https://www.quotemaster.org/images/fa/faafd5631151dcdec1d045b2659a5369.png',7);
+(NOW(),NOW(),'https://www3.ntu.edu.sg/home/ehchua/programming/java/images/programming_steps.gif',2),
+(NOW(),NOW(),'https://i.pinimg.com/originals/6e/03/21/6e0321597039afa3bc11d02d52fdfa6e.jpg',3),
+(NOW(),NOW(),'https://i.pinimg.com/originals/c2/e2/67/c2e26700b40bf55efa8d0ac05977e5c0.jpg',4),
+(NOW(),NOW(),'https://www.quotemaster.org/images/fa/faafd5631151dcdec1d045b2659a5369.png',5),
+(NOW(),NOW(),'https://introcs.cs.princeton.edu/java/11cheatsheet/images/hello.png',15),
+(NOW(),NOW(),'https://www3.ntu.edu.sg/home/ehchua/programming/java/images/programming_steps.gif',14),
+(NOW(),NOW(),'https://i.pinimg.com/originals/6e/03/21/6e0321597039afa3bc11d02d52fdfa6e.jpg',13),
+(NOW(),NOW(),'https://i.pinimg.com/originals/c2/e2/67/c2e26700b40bf55efa8d0ac05977e5c0.jpg',12),
+(NOW(),NOW(),'https://www.quotemaster.org/images/fa/faafd5631151dcdec1d045b2659a5369.png',11);
 		 
 INSERT INTO public.payments (name, payment_code, created_at, modified_at)
 VALUES
