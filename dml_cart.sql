@@ -1,20 +1,20 @@
 INSERT INTO public.users ("name",username  ,"password" ,phone, address ,email ,photo, created_at,modified_at)
 values
-('Ade','Ade','Ade','0813131313','jalanjalan','jalan@gmail.com','fotto',NOW(),NOW()),
-('Bayu','Bayu','Bayu','082190908080','Jl sisimangarajaa','budin@gmal.com','fotto1',NOW(),NOW()),
-('Rifky','Rifky','Rifky','0822324243','Jl Singa baru','rudi@gmal.com','fottto',NOW(),NOW()),
-('Andry','Andry','Andry','0823333333','Jl Singa baru 2','tisa@gmal.com','fotto2',NOW(),NOW()),
-('Alya','Alya','Alya','082277777','Jl Singa baru 2','reva@gmal.com','fotto1',NOW(),NOW()),
-('rini','rini','rini','0822444444','Jl Singa baru 1','rini@gmal.com','foto1',NOW(),NOW()),
-('adi','adi','adi','0822344544','Jl Singa baru 2','adi@gmal.com','fottto1',NOW(),NOW()),
-('fikri','fikri','fikri','0822555555','Jl Singa baru 1','fikri@gmal.com','foto1',NOW(),NOW()),
-('simon','simon','simon','0822666666','Jl Singa baru  3','simon@gmal.com','fotto11',NOW(),NOW()),
-('beto','beto','beto','082234890122','Jl Nusa Indah XX1','beto1@gmal.com','fotto13',NOW(),NOW()),
-('turi','turi','turi','082245678910','Jl Damar 2','turi1@gmal.com','fotto13',NOW(),NOW()),
-('deny','deny','deny','082210291034','Jl Koto XXI','deny1@gmal.com','fotto13',NOW(),NOW()),
-('hasan','hasan','hasan','082288003345','Jl Ipinus 3','hasan1@gmal.com','fotto13',NOW(),NOW()),
-('irvan','irvan','irvan','082277665544','Jl Merpati darat 3','irvan12@gmal.com','fotto113',NOW(),NOW()),
-('gagas','gagas','gagas','082230302910','Jl Jalak ketupat','gagas@gmal.com','fotto13',NOW(),NOW());
+('Ade','Ade','Ade','0813131313','jalanjalan','jalan@gmail.com','ade.png',NOW(),NOW()),
+('Bayu','Bayu','Bayu','082190908080','Jl sisimangarajaa','budin@gmal.com','bayu.png',NOW(),NOW()),
+('Rifky','Rifky','Rifky','0822324243','Jl Singa baru','rudi@gmal.com','rifky.gif',NOW(),NOW()),
+('Andry','Andry','Andry','0823333333','Jl Singa baru 2','tisa@gmal.com','andry.jpeg',NOW(),NOW()),
+('Alya','Alya','Alya','082277777','Jl Singa baru 2','reva@gmal.com','alya.jpg',NOW(),NOW()),
+('rini','rini','rini','0822444444','Jl Singa baru 1','rini@gmal.com','rini.jpg',NOW(),NOW()),
+('adi','adi','adi','0822344544','Jl Singa baru 2','adi@gmal.com','adi.png',NOW(),NOW()),
+('fikri','fikri','fikri','0822555555','Jl Singa baru 1','fikri@gmal.com','fikri.jpg',NOW(),NOW()),
+('simon','simon','simon','0822666666','Jl Singa baru  3','simon@gmal.com','simon.png',NOW(),NOW()),
+('beto','beto','beto','082234890122','Jl Nusa Indah XX1','beto1@gmal.com','beto.jpg',NOW(),NOW()),
+('turi','turi','turi','082245678910','Jl Damar 2','turi1@gmal.com','tury.gif',NOW(),NOW()),
+('deny','deny','deny','082210291034','Jl Koto XXI','deny1@gmal.com','deny.jpg',NOW(),NOW()),
+('hasan','hasan','hasan','082288003345','Jl Ipinus 3','hasan1@gmal.com','hasan.jpeg',NOW(),NOW()),
+('irvan','irvan','irvan','082277665544','Jl Merpati darat 3','irvan12@gmal.com','irvan.jpg',NOW(),NOW()),
+('gagas','gagas','gagas','082230302910','Jl Jalak ketupat','gagas@gmal.com','gagas.jpeg',NOW(),NOW());
 
 INSERT INTO public.sellers (store_address,store_name,store_photo,user_id,created_at,modified_at)
 VALUES 
@@ -51,20 +51,20 @@ The Iconic Link is available in polished stainless steel (316L) with a vibrant s
 The link bracelet can be adjusted for a perfect fit at your local watchmaker or Daniel Wellington store.', 'ICONIC LINK', 3420000, 1, NOW(),NOW()),
 ('The Iconic Link Unitone is our first unicolor timepiece that features a seamlessly matching luxurious metal link bracelet and watch dial. Available in polished stainless steel with a vibrant silver finish, refined rose gold or gold plating. This unique addition to the Iconic Link collection makes the Unitone stand out as an undeniably eye-catching timepiece that sets the tone for any occasion.'	, 'PETITE MELROSE QUEEN', 2817000,  1, NOW(),NOW()),
 ('Petite Melrose mengunggulkan arloji putih telur dan strap mesh rose gold yang tak tertandingi keanggunannya. Jam ini memperindah busana harian, suasana hati, dan semangat Anda.', 'PETITE MELROSE' , 2817000, 3, NOW(),NOW()),
-('Petite dengan arloji putih telur dan strap kulit Sheffield klasik warna hitam memperindah busana Anda dalam setiap kesempatan. Ikon desain sejati.','PETITE SHEFFIELD' ,2817000, 6, NOW(),NOW()),
-('The Petite Pressed Sterling is our most delicate timepiece to date. Designed to be worn every day, this watch reflects the beauty in the small things. Crafted with polished stainless steel and available with a vibrant silver finish. Elevate your look with a graceful touch.','PETITE PRESSED STERLING' ,2817000, 8, NOW(),NOW()),
-('The Petite Pressed Ashfield is our most delicate timepiece to date. Designed to be worn every day, this watch reflects the beauty in the small things. Crafted with polished stainless steel and plated with refined rose gold. Elevate your look with a graceful touch.', 'PETITE PRESSED ASHFIELD' ,2817000, 7, NOW(),NOW()),
-('The Petite Evergold 28 is our latest addition to the Petite Collection. Featuring an eggshell white dial and our classic mesh strap in a light shade of gold. Elevate your look with a delicate pop of gold that seamlessly matches any outfit.', 'PETITE EVERGOLD',2817000, 6, NOW(),NOW()),
-('The Petite Rosewater features an eggshell white dial and a charming pink NATO strap. This watch gives your look a subtle, yet eye-catching, pop of color that is ideal for the spring season. The delicate pink strap, coupled with chic rose gold details, makes the Rosewater your go-to accessory for when you need to brighten up an outfit.', 'PETITE ROSEWATER',2817000, 1, NOW(),NOW()),
-('Classic Dover, dengan tombol berwarna putih cangkang telur dan detail dalam emas merah muda, jam elegan ini akan dengan mudah menjadi teman penampilan sehari-hari kamu. Menghadirkan tali NATO serba putih, jam ini memiliki desain klasik modern yang dibuat agar cocok untuk segala kesempatan.', 'CLASSIC DOVER',2817000, 5, NOW(),NOW()),
-('Masuki musim mode abadi yang baru dengan Petite Ashfield. Jam tangan ultra tipis ini melingkar dengan manis di pergelangan tangan Anda dan dipercantik dengan strap jala warna hitam matte dan arloji hitam yang mewah. Tersedia dengan rincian warna rose gold atau silver.', 'PETITE ASHFIELD',2817000, 14, NOW(),NOW()),
-('With classic features such as the slim case, details in rose gold or silver, and our heritage NATO strap in midnight blue, Classic Bayswater is an effortless day-to-evening timepiece.', 'CLASSIC BAYSWATER',2817000, 9, NOW(),NOW()),
-('Classic Cornwall menampilkan esensi dari kesederhanaan dan gaya. Dengan tali NATO hitam dan permukaan putih, jam tangan simpel dan elegan ini dapat dengan mudah menjadi ciri khas penampilan Anda sehari-hari.', 'CLASSIC CORNWALL',2817000, 3, NOW(),NOW()),
-('Warna putih berpadu dengan hitam pada perpaduan manis antara gaya minimalisme dan kulit buaya bermotif timbul klasik warna hitam. Padukan atau pasangkan dengan jins dan kaos untuk penampilan santai.', 'PETITE READING',2817000, 2, NOW(),NOW()),
+('Petite dengan arloji putih telur dan strap kulit Sheffield klasik warna hitam memperindah busana Anda dalam setiap kesempatan. Ikon desain sejati.','PETITE SHEFFIELD' ,1234000, 6, NOW(),NOW()),
+('The Petite Pressed Sterling is our most delicate timepiece to date. Designed to be worn every day, this watch reflects the beauty in the small things. Crafted with polished stainless steel and available with a vibrant silver finish. Elevate your look with a graceful touch.','PETITE PRESSED STERLING' ,2712000, 8, NOW(),NOW()),
+('The Petite Pressed Ashfield is our most delicate timepiece to date. Designed to be worn every day, this watch reflects the beauty in the small things. Crafted with polished stainless steel and plated with refined rose gold. Elevate your look with a graceful touch.', 'PETITE PRESSED ASHFIELD' ,1891000, 7, NOW(),NOW()),
+('The Petite Evergold 28 is our latest addition to the Petite Collection. Featuring an eggshell white dial and our classic mesh strap in a light shade of gold. Elevate your look with a delicate pop of gold that seamlessly matches any outfit.', 'PETITE EVERGOLD',5117000, 6, NOW(),NOW()),
+('The Petite Rosewater features an eggshell white dial and a charming pink NATO strap. This watch gives your look a subtle, yet eye-catching, pop of color that is ideal for the spring season. The delicate pink strap, coupled with chic rose gold details, makes the Rosewater your go-to accessory for when you need to brighten up an outfit.', 'PETITE ROSEWATER',3050000, 1, NOW(),NOW()),
+('Classic Dover, dengan tombol berwarna putih cangkang telur dan detail dalam emas merah muda, jam elegan ini akan dengan mudah menjadi teman penampilan sehari-hari kamu. Menghadirkan tali NATO serba putih, jam ini memiliki desain klasik modern yang dibuat agar cocok untuk segala kesempatan.', 'CLASSIC DOVER',1040000, 5, NOW(),NOW()),
+('Masuki musim mode abadi yang baru dengan Petite Ashfield. Jam tangan ultra tipis ini melingkar dengan manis di pergelangan tangan Anda dan dipercantik dengan strap jala warna hitam matte dan arloji hitam yang mewah. Tersedia dengan rincian warna rose gold atau silver.', 'PETITE ASHFIELD',9000000, 14, NOW(),NOW()),
+('With classic features such as the slim case, details in rose gold or silver, and our heritage NATO strap in midnight blue, Classic Bayswater is an effortless day-to-evening timepiece.', 'CLASSIC BAYSWATER',4521000, 9, NOW(),NOW()),
+('Classic Cornwall menampilkan esensi dari kesederhanaan dan gaya. Dengan tali NATO hitam dan permukaan putih, jam tangan simpel dan elegan ini dapat dengan mudah menjadi ciri khas penampilan Anda sehari-hari.', 'CLASSIC CORNWALL',3131000, 3, NOW(),NOW()),
+('Warna putih berpadu dengan hitam pada perpaduan manis antara gaya minimalisme dan kulit buaya bermotif timbul klasik warna hitam. Padukan atau pasangkan dengan jins dan kaos untuk penampilan santai.', 'PETITE READING',4242000, 2, NOW(),NOW()),
 ('SERASI DENGAN SETIAP GAYA ANDA. SETIAP HARI.
-Petite Cornwall menangkap esensi kesederhanaan dan gaya sejati. Mengunggulkan strap NATO serba hitam dan arloji hitam, jam ramping dan elegan ini dengan mudah menjadi sahabat dalam gaya sehari-hari Anda.', 'PETITE CORNWALL',2817000, 3, NOW(),NOW()),
+Petite Cornwall menangkap esensi kesederhanaan dan gaya sejati. Mengunggulkan strap NATO serba hitam dan arloji hitam, jam ramping dan elegan ini dengan mudah menjadi sahabat dalam gaya sehari-hari Anda.', 'PETITE CORNWALL',7755000, 3, NOW(),NOW()),
 ('DESAIN KLASIK BERPADU DENGAN MINIMALISME MODERN
-Petite Bondi, dengan strap kulit warna putih dan arloji putih telur, menampilkan kesederhanaan dan keanggunan. Jam ultra-tipis ini duduk dengan manis di tangan Anda dan menyoroti semangat Anda yang membara dalam gaya. Tersedia dengan warna rose gold atau silver.', 'PETITE BONDI',2817000, 11, NOW(),NOW());
+Petite Bondi, dengan strap kulit warna putih dan arloji putih telur, menampilkan kesederhanaan dan keanggunan. Jam ultra-tipis ini duduk dengan manis di tangan Anda dan menyoroti semangat Anda yang membara dalam gaya. Tersedia dengan warna rose gold atau silver.', 'PETITE BONDI',6699000, 11, NOW(),NOW());
 
 INSERT INTO public.photos  (created_at ,modified_at,photourl,product_id)
 values
@@ -202,7 +202,7 @@ INSERT INTO public.user_role (created_at,modified_at,role_id,user_id) VALUES
 	
 CREATE extension IF NOT EXISTS pgcrypto;
 UPDATE public.Users SET password = crypt("password" ,gen_salt('bf'));
---
+
 --INSERT INTO public.orders (totalprice ,payment_id ,shipping_id , created_at,modified_at)
 --VALUES
 --	 	(12000,1,2,NOW(),NOW()),
