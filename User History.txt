@@ -1,25 +1,23 @@
-Registration User
+- Registration User
 
 {
   "name": "Nadine",
   "username": "Nadine_1st",
   "email": "nadine@ist.id",
-  "password": "infosystTerbaik77",
+  "password": "InfosysAlya404",
   "phone": "081340044004",
-  "address": "Jalan Soekarno Hatta Nomor 19, RT/RW 07/01. kel. cibrebes, kec. citayam, depok",
-  "roles": [
-    "ROLE_USER"
-  ]
+  "address": "Jalan Soekarno Hatta Nomor 19, RT/RW 07/01. kel. cibrebes, kec. citayam, depok"
 }
 
-Login (copy jwt in authorization)
+- Login (copy jwt in authorization)
 
-Login as seller
-
+- create shop
 {
   "storeName": "1st Store",
   "storeAddress": "Jalan Mawar No 36, Yogyakarta"
 }
+
+- Login as seller
 
 Post Produk 
 
@@ -44,7 +42,7 @@ Post photo with product id / last product seller
 Add wishlist
 
 {
-  "productId": 16,
+  "productId": 3,
   "quantity": 5
 }
 
@@ -67,6 +65,8 @@ update order
   "destination_phone": "080799900",
   "zip_code": "23092"
 }
+
+pay my order
 
 checkout order (buyer id)
 
