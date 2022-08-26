@@ -104,21 +104,21 @@ VALUES
 	 
 INSERT INTO public.wishlist (created_at, modified_at,buyer_id ,product_id, quantity)
 VALUES
-	  	 (NOW(),NOW(),2,2,1),
-	  	 (NOW(),NOW(),11,3,3),
-	  	 (NOW(),NOW(),1,2,4),
-	  	 (NOW(),NOW(),2,3,1),
-	  	 (NOW(),NOW(),1,1,1),
-	  	 (NOW(),NOW(),3,1,2),
-	  	 (NOW(),NOW(),5,5,3),
-	  	 (NOW(),NOW(),14,4,1),
-	  	 (NOW(),NOW(),3,5,1),
-	  	 (NOW(),NOW(),5,3,2),
-	  	 (NOW(),NOW(),4,14,3),
-	  	 (NOW(),NOW(),3,5,1),
-	  	 (NOW(),NOW(),12,6,5),
-	  	 (NOW(),NOW(),3,4,2),
-	  	 (NOW(),NOW(),4,7,1);
+	  	 (NOW(),NOW(),1,2,1),
+	  	 (NOW(),NOW(),2,3,3),
+	  	 (NOW(),NOW(),3,4,4),
+	  	 (NOW(),NOW(),4,5,1),
+	  	 (NOW(),NOW(),5,6,1),
+	  	 (NOW(),NOW(),6,7,2),
+	  	 (NOW(),NOW(),7,8,3),
+	  	 (NOW(),NOW(),8,9,1),
+	  	 (NOW(),NOW(),9,15,1),
+	  	 (NOW(),NOW(),15,14,2),
+	  	 (NOW(),NOW(),14,13,3),
+	  	 (NOW(),NOW(),13,12,1),
+	  	 (NOW(),NOW(),12,11,5),
+	  	 (NOW(),NOW(),11,10,2),
+	  	 (NOW(),NOW(),10,1,1);
 	 
 INSERT INTO public.shipping ("name" , price, created_at, modified_at)
 VALUES
